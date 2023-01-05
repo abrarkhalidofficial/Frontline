@@ -46,7 +46,7 @@ export default function Header() {
           {/* <div className="header__navbar__left"></div> */}
           <div className="header__navbar__center">
             <NavLink to="/" className="header__logo">
-              <img src={PngHeaderlogo} />
+              <img src={PngHeaderlogo} alt="logo" />
             </NavLink>
             <div
               className="header__menu"
