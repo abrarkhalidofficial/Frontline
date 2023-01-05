@@ -4,7 +4,7 @@ import ClickAwayListener from "react-click-away-listener";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import React from "react";
-import { headerlogo } from "../assets";
+import { PngHeaderlogo } from "../assets";
 
 // import { Menu } from "react-feather";
 
@@ -46,7 +46,7 @@ export default function Header() {
           {/* <div className="header__navbar__left"></div> */}
           <div className="header__navbar__center">
             <NavLink to="/" className="header__logo">
-              <img src={headerlogo} />
+              <img src={PngHeaderlogo} />
             </NavLink>
             <div
               className="header__menu"
@@ -89,7 +89,7 @@ export default function Header() {
                     }}
                     className="header__entry"
                   >
-                    About Us
+                    About
                   </Link>
                   <Link
                     to="/"
@@ -102,7 +102,7 @@ export default function Header() {
                     }}
                     className="header__entry"
                   >
-                    Features
+                    Services
                   </Link>
                   <Link
                     to="/"
@@ -116,8 +116,23 @@ export default function Header() {
                     }}
                     className="header__entry"
                   >
-                    Contact Us
+                    Industries
                   </Link>
+                  <Link
+                    to="/"
+                    onClick={() => {
+                      setShow(!false);
+                      setTimeout(() => {
+                        document;
+                        // .getElementById("contact")
+                        // .scrollIntoView({ behavior: "smooth" });
+                      }, 1000);
+                    }}
+                    className="header__entry"
+                  >
+                    Team
+                  </Link>
+                  <button className="header__entry__button">Evaluator</button>
                 </div>
               </ClickAwayListener>
             ) : null}
@@ -146,7 +161,7 @@ function X() {
           data-name="Path 21895"
           d="M4.5,18h27"
           fill="none"
-          stroke="#bc993d"
+          stroke="#628200"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="3"
@@ -156,7 +171,7 @@ function X() {
           data-name="Path 21896"
           d="M4.5,9h27"
           fill="none"
-          stroke="#bc993d"
+          stroke="#628200"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="3"
@@ -166,7 +181,7 @@ function X() {
           data-name="Path 21897"
           d="M4.5,27h27"
           fill="none"
-          stroke="#bc993d"
+          stroke="#628200"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="3"
@@ -189,7 +204,7 @@ function Y() {
         data-name="Icon ionic-md-add"
         d="M29.25,19.5H19.5v9.75h-3V19.5H6.75v-3H16.5V6.75h3V16.5h9.75Z"
         transform="translate(-9.546 15.91) rotate(-45)"
-        fill="#bc993d"
+        fill="#628200"
       />
     </svg>
   );

@@ -1,7 +1,7 @@
 :root {
-  --yellow: #ebb93b;
-  --maxwidth1: 1460px;
-  --maxwidth2: 1360px;
+  --yellow: #628200;
+  --maxwidth1: 1300px;
+  --maxwidth2: 1300px;
   --maxwidth3: 1300px;
   //   --maxwidth4: 1200px;
   //   --maxwidth5: 1000px;
@@ -13,7 +13,7 @@
 *::before {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "El Messiri", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .header__section {
@@ -39,7 +39,7 @@
   max-width: 1920px;
   width: 80%;
   // position: fixed;
-  position: absolute;
+
   margin: 0px auto;
   z-index: 999;
   /* padding-top: 1em; */
@@ -84,15 +84,18 @@
 }
 .header__entry {
   text-decoration: none;
-  padding: 2.5em;
+  padding: 0em 1.5em;
+  font-weight: 600;
   color: #000;
-  font-size: 16px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  text-decoration: none;
   //   border-radius: 0 0 55px 0;
-  font-weight: 500;
 }
 .header__entry:hover {
-  text-decoration: underline;
-  color: #ebb93b;
+  color: #628200;
 }
 .header__navbar__right {
   /* background-color: aqua; */
@@ -146,7 +149,7 @@
     padding-right: 1em;
   }
   .header__entry {
-    padding: 2.5em 1.5em;
+    padding: 0em 1.5em;
     font-size: 14px;
   }
 }
@@ -155,6 +158,7 @@
   .header__menu {
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
 
   .homesection__left__heading {
@@ -164,7 +168,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 400px;
-    background-color: #000;
+    background-color: #a7acb3;
     width: 100%;
     /* justify-content: center; */
     align-items: center;
@@ -176,4 +180,18 @@
   .header__entry {
     padding: 1.5em;
   }
+}
+.header__entry__button {
+  background: linear-gradient(270deg, #628200 21.93%, #8cb805);
+  color: white;
+  border: none;
+  padding: 0.8em 1.4em;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 1em;
+}
+.header__entry__button:hover {
+  background: linear-gradient(270deg, #8cb805 21.93%, #628200);
 }
