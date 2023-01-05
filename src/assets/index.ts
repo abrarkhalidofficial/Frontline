@@ -6,6 +6,7 @@ import PngHomesectionback from './homesectionback.png'
 import PngIndustriesleftimg from './industriesleftimg.png'
 import SvgReact from './react.svg'
 import PngServicesback from './servicesback.png'
+import PngTeamcardimg from './teamcardimg.png'
 import PngTeamsectionback from './teamsectionback.png'
 
 export {
@@ -17,5 +18,6 @@ export {
   PngIndustriesleftimg,
   SvgReact,
   PngServicesback,
+  PngTeamcardimg,
   PngTeamsectionback
 }
