@@ -79,6 +79,7 @@ body {
   font-weight: 500;
   text-align: center;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .aboutus__content__text {
   color: #2e2e2e;
@@ -157,8 +158,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  padding: 100px 0px;
+  padding-top: 2em;
+  padding-bottom: 5em;
 }
 .services__content__left {
   width: 30%;
@@ -174,6 +175,7 @@ body {
   font-size: 45px;
   font-weight: bold;
   text-align: center;
+  text-transform: uppercase;
 }
 .services__content__left__content {
   padding: 3em 1em;
@@ -226,4 +228,59 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
+}
+.industries {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.industries__content__heading {
+  color: #1a2a43;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.industries__content {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+}
+.industries__content__left {
+  width: 40%;
+}
+
+.industries__content__right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.industries__content__right button {
+  background-color: #efefef;
+  color: #000;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 1em;
+  margin: 0.5em;
+  margin-left: 3em;
+}
+.industries__content__right button:hover {
+  color: #f9f9f9;
+  background: linear-gradient(174.33deg, #89b011 40.13%, #6d8e07 85.2%);
+}
+.industries__content__left__content__img img {
+  width: 400px;
+  margin: 0 auto;
+  max-width: 400px;
+}
+.industries__content__left__content__img {
+  display: flex;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { PngAboutusimg } from "../assets";
+import { PngAboutusimg, PngAboutusimg1, PngAboutusimg2 } from "../assets";
 
 export function aboutus() {
   return (
@@ -32,25 +32,24 @@ export function aboutus() {
             </div>
           </div>
           <div className="aboutus__content__card">
-            <img src={PngAboutusimg} alt="PngAboutusimg" />
+            <img src={PngAboutusimg1} alt="PngAboutusimg" />
 
             <div className="aboutus__content__card__heading">
-              One of the most active advisory firm
+              Ensuring maximum client satisfaction
             </div>
             <div className="aboutus__content__card__text">
-              Aspiring to be ranked among the top advisory firms across the
-              nation.
+              Dedicated to providing personal attention to all our clients.
             </div>
           </div>
           <div className="aboutus__content__card">
-            <img src={PngAboutusimg} alt="PngAboutusimg" />
+            <img src={PngAboutusimg2} alt="PngAboutusimg" />
 
             <div className="aboutus__content__card__heading">
-              One of the most active advisory firm
+              Wide Portfolio of services offered
             </div>
             <div className="aboutus__content__card__text">
-              Aspiring to be ranked among the top advisory firms across the
-              nation.
+              Catering to the need of all types of Business , Corporations &
+              Institutions.
             </div>
           </div>
         </div>
