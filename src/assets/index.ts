@@ -4,6 +4,7 @@ import PngAboutusimg2 from './aboutusimg2.png'
 import PngHeaderlogo from './headerlogo.png'
 import PngHomesectionback from './homesectionback.png'
 import PngIndustriesleftimg from './industriesleftimg.png'
+import PngMamberbackground from './mamberbackground.png'
 import SvgReact from './react.svg'
 import PngServicesback from './servicesback.png'
 import PngTeamcardimg from './teamcardimg.png'
@@ -16,6 +17,7 @@ export {
   PngHeaderlogo,
   PngHomesectionback,
   PngIndustriesleftimg,
+  PngMamberbackground,
   SvgReact,
   PngServicesback,
   PngTeamcardimg,

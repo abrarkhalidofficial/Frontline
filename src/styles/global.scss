@@ -235,6 +235,7 @@ body {
   margin: 0 auto;
 }
 .industries__content__heading,
+.transaction__heading,
 .members__content__heading {
   color: #1a2a43;
   font-size: 45px;
@@ -369,9 +370,10 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 2em;
+  padding-bottom: 3em;
 }
 .members__content__heading {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 .members__content__all__card {
   display: flex;
@@ -393,10 +395,18 @@ body {
   box-shadow: 4px 4px 71px -20px rgba(0, 0, 0, 0.25);
 }
 .members__content__card:hover {
+  cursor: pointer;
   background: linear-gradient(90deg, #95c207 0%, #668600 100%);
+  color: #fff;
 }
 .members__content__card:hover .members__content__card__links svg * {
   fill: #fff;
+}
+.members__content__card:hover .members__content__card__info {
+  color: #fff;
+}
+.members__content__card:hover .members__content__card__text {
+  color: #fff;
 }
 .members__content__card__links {
   display: flex;
@@ -423,7 +433,7 @@ body {
   color: #6d8e07;
 }
 .members__content__card__links {
-  margin-top: 0.5em;
+  margin-top: 1em;
 }
 .members__content__card__links a {
   margin: 0 1em;
@@ -432,4 +442,69 @@ body {
   margin-top: 1em;
   font-size: 16px;
   color: #2e2e2e;
+}
+.members__background__img img {
+  padding-top: 3em;
+
+  position: absolute;
+  top: -5%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.transaction {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+.transaction__content {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+.transaction__card {
+  width: 20%;
+  max-width: 300px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  border-bottom: none;
+  padding-right: 14em;
+  height: 220px;
+}
+.transaction__card__text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2e2e2e;
+  margin-top: 1em;
+  width: 200px;
+}
+.transaction__card__content {
+  padding: 1em;
+}
+.swiper .swiper-initialized .swiper-horizontal .swiper-pointer-events {
+  padding-right: 2em !important;
+}
+.transaction__card:hover .transaction__card__text {
+  color: #fff;
+}
+.transaction__card:hover .transaction__card__svg svg * {
+  fill: #fff;
+}
+.swiper-container {
+  padding-right: 2em !important;
+  padding-left: 2em !important;
+}
+.transaction__card:hover {
+  box-shadow: 4px 4px 71px -20px rgba(0, 0, 0, 0.25);
+  border: 1px solid #95c207;
+  cursor: pointer;
+  background: linear-gradient(90deg, #95c207 0%, #668600 100%);
+  color: #fff;
 }
