@@ -236,7 +236,8 @@ body {
 }
 .industries__content__heading,
 .transaction__heading,
-.members__content__heading {
+.members__content__heading,
+.clients__heading {
   color: #1a2a43;
   font-size: 45px;
   font-weight: bold;
@@ -502,9 +503,24 @@ body {
   padding-left: 2em !important;
 }
 .transaction__card:hover {
-  box-shadow: 4px 4px 71px -20px rgba(0, 0, 0, 0.25);
   border: 1px solid #95c207;
   cursor: pointer;
   background: linear-gradient(90deg, #95c207 0%, #668600 100%);
   color: #fff;
+}
+.clients {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+.clients__content {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+  padding-bottom: 3em;
 }
