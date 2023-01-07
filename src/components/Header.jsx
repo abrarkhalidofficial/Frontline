@@ -4,9 +4,7 @@ import ClickAwayListener from "react-click-away-listener";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import React from "react";
-import { PngHeaderlogo } from "../assets";
-
-// import { Menu } from "react-feather";
+import { PngHeaderlogo } from "assets";
 
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(true);
@@ -43,7 +41,6 @@ export default function Header() {
               : "header__navbar"
           }
         >
-          {/* <div className="header__navbar__left"></div> */}
           <div className="header__navbar__center">
             <NavLink to="/" className="header__logo">
               <img src={PngHeaderlogo} alt="logo" />

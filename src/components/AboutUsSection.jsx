@@ -1,7 +1,6 @@
-import React from "react";
-import { PngAboutusimg, PngAboutusimg1, PngAboutusimg2 } from "../assets";
+import { PngAboutusimg, PngAboutusimg1, PngAboutusimg2 } from "assets";
 
-export function aboutus() {
+export default function AboutUsSection() {
   return (
     <section className="aboutus">
       <div className="aboutus__content">
