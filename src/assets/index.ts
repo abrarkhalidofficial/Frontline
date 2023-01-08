@@ -9,6 +9,7 @@ import PngClientswiperimg4 from './clientswiperimg4.png'
 import PngClientswiperimg5 from './clientswiperimg5.png'
 import PngClientswiperimg6 from './clientswiperimg6.png'
 import PngClientswiperimg7 from './clientswiperimg7.png'
+import PngFooterlogo from './footerlogo.png'
 import PngHeaderlogo from './headerlogo.png'
 import PngHomesectionback from './homesectionback.png'
 import PngIndustriesleftimg from './industriesleftimg.png'
@@ -30,6 +31,7 @@ export {
   PngClientswiperimg5,
   PngClientswiperimg6,
   PngClientswiperimg7,
+  PngFooterlogo,
   PngHeaderlogo,
   PngHomesectionback,
   PngIndustriesleftimg,
