@@ -92,7 +92,7 @@ body::-webkit-scrollbar-track {
 .aboutus__content__heading {
   color: #1a2a43;
   font-size: 45px;
-  font-weight: 500;
+  font-weight: bold;
   text-align: center;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -610,4 +610,113 @@ body::-webkit-scrollbar-track {
 }
 .footer__bottom__content__right {
   color: #fff;
+}
+@media (max-width: 1050px) {
+  .aboutus__content__all__card {
+    max-width: 700px;
+    justify-content: center;
+  }
+  .aboutus__content__text {
+    max-width: 700px;
+    font-size: 15px;
+  }
+  .aboutus__content__heading,
+  .services__content__heading,
+  .industries__content__heading {
+    font-size: 30px;
+    margin-bottom: 0em;
+  }
+  .services__content {
+    flex-direction: column;
+  }
+  .services__content__left__content {
+    display: flex;
+  }
+  .services__content__left__content__heading {
+    font-size: 16px;
+  }
+  .services__content__left {
+    width: 100%;
+    max-width: fit-content;
+  }
+  .services__content__left__content {
+    padding: 1em;
+  }
+  .services__content__right {
+    width: 100%;
+  }
+  .services__content__right__content {
+    max-width: 700px;
+  }
+}
+@media (max-width: 950px) {
+  .industries__content__left__content__img img {
+    max-width: 400px;
+    width: 300px;
+  }
+  .industries__content {
+    flex-direction: column-reverse;
+  }
+  .industries__content__right {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .industries__content__right button {
+    margin-left: 0em;
+    font-size: 12px;
+  }
+  .industries__content__left {
+    width: 90%;
+  }
+  .industries__content__left__content__img {
+    margin-top: 2em;
+  }
+}
+@media (max-width: 700px) {
+  .aboutus__content__all__card {
+    max-width: 500px;
+    justify-content: center;
+  }
+  .aboutus__content__text {
+    max-width: 500px;
+    font-size: 15px;
+  }
+  .services__content__right__content__heading {
+    font-size: 15px;
+  }
+  .services__content__right__content__text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) {
+  .aboutus__content__all__card {
+    max-width: 370px;
+    justify-content: center;
+  }
+  .aboutus__content__text {
+    max-width: 370px;
+    font-size: 14px;
+  }
+  .aboutus__content__heading,
+  .services__content__heading,
+  .industries__content__heading {
+    font-size: 22px;
+  }
+  .services__content__left__content__heading {
+    font-size: 14px;
+  }
+  .services__content {
+    width: 90%;
+  }
+  .industries__content__left__content__img img {
+    width: 250px;
+  }
+}
+@media (max-width: 400px) {
+  .services__content__left__content__heading {
+    font-size: 12px;
+  }
 }
