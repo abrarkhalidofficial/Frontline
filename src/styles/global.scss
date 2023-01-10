@@ -626,6 +626,9 @@ body::-webkit-scrollbar-track {
     font-size: 30px;
     margin-bottom: 0em;
   }
+  .teamcard__content__heading {
+    font-size: 25px;
+  }
   .services__content {
     flex-direction: column;
   }
@@ -668,11 +671,18 @@ body::-webkit-scrollbar-track {
     margin-left: 0em;
     font-size: 12px;
   }
-  .industries__content__left {
+  .industries__content__left,
+  .teamcard__content__card {
     width: 90%;
   }
   .industries__content__left__content__img {
     margin-top: 2em;
+  }
+  .teamcard__content__all__card {
+    flex-direction: column;
+  }
+  .teamcard__content__card {
+    margin-top: 3em;
   }
 }
 @media (max-width: 700px) {
@@ -690,6 +700,9 @@ body::-webkit-scrollbar-track {
   .services__content__right__content__text {
     font-size: 14px;
   }
+  .teamcard__content__heading {
+    margin-bottom: 0em;
+  }
 }
 @media (max-width: 500px) {
   .aboutus__content__all__card {
@@ -704,6 +717,10 @@ body::-webkit-scrollbar-track {
   .services__content__heading,
   .industries__content__heading {
     font-size: 22px;
+  }
+  .teamcard__content__heading {
+    font-size: 20px;
+    max-width: 370px;
   }
   .services__content__left__content__heading {
     font-size: 14px;
