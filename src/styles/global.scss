@@ -828,6 +828,24 @@ body::-webkit-scrollbar-track {
   .footer__content__right__links__item__svg {
     margin-left: 1em;
   }
+  .footer__content__right__links__item__info {
+    font-size: 14px;
+  }
+  .footer__content__left img {
+    width: 280px;
+  }
+  .footer__bottom__content__left a {
+    font-size: 14px;
+  }
+  .footer__bottom__content__right {
+    font-size: 14px;
+  }
+  .footer__content__right {
+    margin-right: 2em;
+  }
+  .transaction__card {
+    width: 80%;
+  }
 }
 @media (max-width: 400px) {
   .services__content__left__content__heading {
