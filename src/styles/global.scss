@@ -47,7 +47,7 @@ body::-webkit-scrollbar-track {
   overflow: hidden;
   margin: 0px auto;
   display: flex;
-  justify-content: cesnter;
+  justify-content: center;
 }
 .homesection__content__background__image img {
   object-fit: cover;
@@ -102,6 +102,7 @@ body::-webkit-scrollbar-track {
   text-align: center;
   margin-bottom: 20px;
   text-transform: uppercase;
+  font-family: "Bebas Kai Regular";
 }
 .aboutus__content__text {
   color: #2e2e2e;
@@ -153,6 +154,7 @@ body::-webkit-scrollbar-track {
   mix-blend-mode: normal;
 }
 .aboutus__content__card__heading {
+  font-family: "Bebas Kai Regular";
   color: #1a2a43;
   font-size: 20px;
   font-weight: 500;
@@ -193,6 +195,7 @@ body::-webkit-scrollbar-track {
   flex-direction: column;
 }
 .services__content__heading {
+  font-family: "Bebas Kai Regular";
   color: #1a2a43;
   font-size: 45px;
   font-weight: bold;
@@ -260,6 +263,7 @@ body::-webkit-scrollbar-track {
 .transaction__heading,
 .members__content__heading,
 .clients__heading {
+  font-family: "Bebas Kai Regular";
   color: #1a2a43;
   font-size: 45px;
   font-weight: bold;
@@ -326,6 +330,7 @@ body::-webkit-scrollbar-track {
   padding-top: 2em;
 }
 .teamcard__content__heading {
+  font-family: "Bebas Kai Regular";
   max-width: 1200px;
   margin: 0 auto;
   color: #6d8e07;
@@ -448,6 +453,7 @@ body::-webkit-scrollbar-track {
 .members__content__card__heading {
   font-size: 22px;
   font-weight: bold;
+  font-family: "Bebas Kai Regular";
 }
 .members__content__card__info {
   font-size: 16px;
@@ -644,6 +650,7 @@ body::-webkit-scrollbar-track {
   .industries__content__heading,
   .transaction__heading,
   .clients__heading {
+    font-family: "Bebas Kai Regular";
     font-size: 30px;
     margin-bottom: 0em;
   }
