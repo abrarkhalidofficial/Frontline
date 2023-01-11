@@ -672,7 +672,8 @@ body::-webkit-scrollbar-track {
     font-size: 12px;
   }
   .industries__content__left,
-  .teamcard__content__card {
+  .teamcard__content__card,
+  .members__content__card {
     width: 90%;
   }
   .industries__content__left__content__img {
@@ -683,6 +684,13 @@ body::-webkit-scrollbar-track {
   }
   .teamcard__content__card {
     margin-top: 3em;
+  }
+
+  .members__content__all__card {
+    flex-direction: column;
+  }
+  .members__content__card {
+    margin-bottom: 9em;
   }
 }
 @media (max-width: 700px) {
