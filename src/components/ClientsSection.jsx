@@ -9,8 +9,28 @@ import {
   PngClientswiperimg7,
 } from "../assets";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import React, { useEffect, useState } from "react";
 export default function ClientsSection() {
+  const [slidesPerView, setSlidesPerView] = useState(6);
+  function changeSlidesPerView() {
+    if (window.innerWidth < 400) {
+      setSlidesPerView(1);
+    } else if (window.innerWidth < 600) {
+      setSlidesPerView(2);
+    } else if (window.innerWidth < 800) {
+      setSlidesPerView(3);
+    } else if (window.innerWidth < 1000) {
+      setSlidesPerView(4);
+    } else if (window.innerWidth < 1200) {
+      setSlidesPerView(5);
+    } else {
+      setSlidesPerView(6);
+    }
+  }
+  useEffect(() => {
+    changeSlidesPerView();
+    window.addEventListener("resize", changeSlidesPerView);
+  }, []);
   return (
     <section className="clients">
       <div className="clients__heading">Our clients</div>
@@ -18,7 +38,7 @@ export default function ClientsSection() {
         <Swiper
           className="swiper-container"
           spaceBetween={50}
-          slidesPerView={6}
+          slidesPerView={slidesPerView}
         >
           <SwiperSlide>
             <div className="client__card">

@@ -5,6 +5,12 @@
   --maxwidth3: 1300px;
 }
 
+@font-face {
+  font-family: "Bebas Kai Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Bebas Kai Regular"), url("./BebasKai-Regular.woff") format("woff");
+}
 *,
 *::after,
 *::before {
@@ -611,6 +617,19 @@ body::-webkit-scrollbar-track {
 .footer__bottom__content__right {
   color: #fff;
 }
+@media (max-width: 1300px) {
+  .footer__content {
+    justify-content: flex-start;
+  }
+  .footer__content__left {
+    margin-left: 3em;
+  }
+}
+@media (max-width: 1150px) {
+  .footer__bottom__content {
+    max-width: 900px;
+  }
+}
 @media (max-width: 1050px) {
   .aboutus__content__all__card {
     max-width: 700px;
@@ -622,7 +641,9 @@ body::-webkit-scrollbar-track {
   }
   .aboutus__content__heading,
   .services__content__heading,
-  .industries__content__heading {
+  .industries__content__heading,
+  .transaction__heading,
+  .clients__heading {
     font-size: 30px;
     margin-bottom: 0em;
   }
@@ -657,6 +678,7 @@ body::-webkit-scrollbar-track {
     max-width: 400px;
     width: 300px;
   }
+
   .industries__content {
     flex-direction: column-reverse;
   }
@@ -685,12 +707,36 @@ body::-webkit-scrollbar-track {
   .teamcard__content__card {
     margin-top: 3em;
   }
+  .members__content {
+    padding-bottom: 0em;
+  }
 
   .members__content__all__card {
     flex-direction: column;
   }
   .members__content__card {
     margin-bottom: 9em;
+  }
+  .footer__content {
+    flex-direction: column;
+  }
+  .footer__content__left {
+    margin-left: 0em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+  }
+  .footer__content__right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__bottom__content {
+    max-width: 600px;
+  }
+  .hr {
+    max-width: 600px;
   }
 }
 @media (max-width: 700px) {
@@ -723,7 +769,9 @@ body::-webkit-scrollbar-track {
   }
   .aboutus__content__heading,
   .services__content__heading,
-  .industries__content__heading {
+  .industries__content__heading,
+  .transaction__heading,
+  .clients__heading {
     font-size: 22px;
   }
   .teamcard__content__heading {
@@ -738,6 +786,25 @@ body::-webkit-scrollbar-track {
   }
   .industries__content__left__content__img img {
     width: 250px;
+  }
+  .swiper-slide .swiper-slide-active {
+    margin-right: 0px !important;
+  }
+  .members__content__card:last-child {
+    margin-bottom: 1em;
+  }
+  .footer__bottom__content {
+    flex-direction: column;
+  }
+  .hr {
+    max-width: 300px;
+  }
+  .footer__content__left img {
+    margin-left: 0em;
+  }
+
+  .footer__content__right__links__item__svg {
+    margin-left: 1em;
   }
 }
 @media (max-width: 400px) {

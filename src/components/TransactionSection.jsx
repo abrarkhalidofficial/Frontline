@@ -1,7 +1,26 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import React from "react";
+
+import React, { useEffect, useState } from "react";
 
 export default function TransactionSection() {
+  const [slidesPerView, setSlidesPerView] = useState(6);
+  function changeSlidesPerView() {
+    if (window.innerWidth < 560) {
+      setSlidesPerView(1);
+    } else if (window.innerWidth < 780) {
+      setSlidesPerView(2);
+    } else if (window.innerWidth < 1010) {
+      setSlidesPerView(3);
+    } else if (window.innerWidth < 1250) {
+      setSlidesPerView(4);
+    } else {
+      setSlidesPerView(5);
+    }
+  }
+  useEffect(() => {
+    changeSlidesPerView();
+    window.addEventListener("resize", changeSlidesPerView);
+  }, []);
   return (
     <section className="transaction">
       <div className="transaction__heading">Team Transaction Experience</div>
@@ -9,7 +28,7 @@ export default function TransactionSection() {
         <Swiper
           className="swiper-container"
           spaceBetween={50}
-          slidesPerView={5}
+          slidesPerView={slidesPerView}
         >
           <SwiperSlide>
             <div className="transaction__card">
