@@ -1,0 +1,168 @@
+.animation__container {
+  background: url("../assets/backgroundanimationpage.png"), no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5em;
+}
+.animation__container__center__piece {
+  position: relative;
+}
+.animation__container__center__piece__button {
+  background-color: #2b2b2b;
+  border: 5px solid #93c007;
+  color: #93c007;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+.animation__container__center__piece__entry {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  width: 100px;
+  cursor: pointer;
+}
+.animation__container__center__piece__entry__1 {
+  top: -150px;
+  left: -50px;
+}
+.animation__container__center__piece__entry__1
+  .animation__container__center__piece__entry__line {
+  width: 178px;
+  height: 2px;
+  background-color: #93c007;
+  transform: translateX(40px) translateY(80px) rotate(60deg);
+}
+.animation__container__center__piece__entry__2 {
+  top: -100px;
+  left: -150px;
+}
+.animation__container__center__piece__entry__2
+  .animation__container__center__piece__entry__line {
+  width: 170px;
+  height: 2px;
+  background-color: #93c007;
+  transform: translateX(70px) translateY(74px) rotate(40deg);
+}
+.animation__container__center__piece__entry__3 {
+  top: -40px;
+  left: -250px;
+}
+.animation__container__center__piece__entry__3
+  .animation__container__center__piece__entry__line {
+  width: 225px;
+  height: 2px;
+  background-color: #93c007;
+  transform: translateX(110px) translateY(64px) rotate(25deg);
+}
+.animation__container__center__piece__entry__4 {
+  top: 50px;
+  left: -300px;
+}
+.animation__container__center__piece__entry__5 {
+  top: 330px;
+  left: -50px;
+}
+.animation__container__center__piece__entry__6 {
+  top: 290px;
+  left: -150px;
+}
+.animation__container__center__piece__entry__7 {
+  top: 220px;
+  left: -275px;
+}
+.animation__container__center__piece__entry__8 {
+  top: 130px;
+  left: -310px;
+}
+.animation__container__center__piece__entry__9 {
+  top: -150px;
+  right: -50px;
+}
+.animation__container__center__piece__entry__9
+  .animation__container__center__piece__entry__line {
+  width: 178px;
+  height: 2px;
+  background-color: #93c007;
+  transform: translateX(-40px) translateY(80px) rotate(120deg);
+}
+.animation__container__center__piece__entry__10 {
+  top: -100px;
+  right: -150px;
+}
+.animation__container__center__piece__entry__10
+  .animation__container__center__piece__entry__line {
+  width: 170px;
+  height: 2px;
+  background-color: #93c007;
+  transform: translateX(-70px) translateY(74px) rotate(140deg);
+}
+.animation__container__center__piece__entry__11 {
+  top: -40px;
+  right: -250px;
+}
+.animation__container__center__piece__entry__11
+  .animation__container__center__piece__entry__line {
+  width: 239px;
+  height: 2px;
+  background-color: #93c007;
+  transform: translateX(-100px) translateY(55px) rotate(155deg);
+}
+.animation__container__center__piece__entry__12 {
+  top: 50px;
+  right: -300px;
+}
+.animation__container__center__piece__entry__13 {
+  top: 330px;
+  right: -50px;
+}
+.animation__container__center__piece__entry__14 {
+  top: 290px;
+  right: -150px;
+}
+.animation__container__center__piece__entry__15 {
+  top: 220px;
+  right: -275px;
+}
+.animation__container__center__piece__entry__0 {
+  top: 130px;
+  right: -310px;
+}
+.animation__container__center__piece__entry__line {
+  z-index: -1;
+}
+.animation__container__center__piece__entry__button {
+  width: 20px;
+  height: 20px;
+  background-color: #93c007;
+  border-radius: 50%;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+.animation__container__center__piece__entry__button::after {
+  background-color: #92c00796;
+  content: "";
+  position: absolute;
+  width: 190%;
+  height: 190%;
+  border-radius: 50%;
+  top: -45%;
+  left: -45%;
+  z-index: -1;
+}
+.animation__container__center__piece__entry__text {
+  color: #2b2b2b;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
