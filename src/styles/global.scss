@@ -699,6 +699,8 @@ body::-webkit-scrollbar-track {
   .industries__content__right button {
     margin-left: 0em;
     font-size: 12px;
+
+    width: 175px;
   }
   .industries__content__left,
   .teamcard__content__card,
@@ -850,5 +852,8 @@ body::-webkit-scrollbar-track {
 @media (max-width: 400px) {
   .services__content__left__content__heading {
     font-size: 12px;
+  }
+  .industries__content__right button {
+    width: 130px;
   }
 }
