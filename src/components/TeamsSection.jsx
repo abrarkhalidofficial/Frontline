@@ -3,7 +3,7 @@ import React from "react";
 
 export default function TeamsSection() {
   return (
-    <section className="teamcard">
+    <section className="teamcard" id="Team">
       <div className="teamcard__content">
         <div className="teamcard__content__heading">
           One of the most active advisory firm in the region with total deal

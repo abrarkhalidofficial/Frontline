@@ -93,7 +93,7 @@ export default function Header() {
                     onClick={() => {
                       setTimeout(() => {
                         document
-                          .getElementById("features")
+                          .getElementById("Services")
                           .scrollIntoView({ behavior: "smooth" });
                       }, 1000);
                     }}
@@ -104,11 +104,10 @@ export default function Header() {
                   <Link
                     to="/"
                     onClick={() => {
-                      setShow(!false);
                       setTimeout(() => {
-                        document;
-                        // .getElementById("contact")
-                        // .scrollIntoView({ behavior: "smooth" });
+                        document
+                          .getElementById("Industries")
+                          .scrollIntoView({ behavior: "smooth" });
                       }, 1000);
                     }}
                     className="header__entry"
@@ -118,17 +117,17 @@ export default function Header() {
                   <Link
                     to="/"
                     onClick={() => {
-                      setShow(!false);
                       setTimeout(() => {
-                        document;
-                        // .getElementById("contact")
-                        // .scrollIntoView({ behavior: "smooth" });
+                        document
+                          .getElementById("Team")
+                          .scrollIntoView({ behavior: "smooth" });
                       }, 1000);
                     }}
                     className="header__entry"
                   >
                     Team
                   </Link>
+
                   <button className="header__entry__button">Evaluator</button>
                 </div>
               </ClickAwayListener>

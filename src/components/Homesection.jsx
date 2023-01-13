@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Homesection() {
   return (
-    <section className="homesection">
+    <section className="homesection" id="home">
       <div className="homesection__content">
         <div className="homesection__content__background">
           <div className="homesection__content__background__image">

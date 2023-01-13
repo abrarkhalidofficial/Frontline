@@ -3,7 +3,7 @@ import React from "react";
 
 export default function IndustriesSection() {
   return (
-    <section className="industries">
+    <section className="industries" id="Industries">
       <div className="industries__content__heading">Industries</div>
       <div className="industries__content">
         <div className="industries__content__left">

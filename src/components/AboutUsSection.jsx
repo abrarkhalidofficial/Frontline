@@ -2,7 +2,7 @@ import { PngAboutusimg, PngAboutusimg1, PngAboutusimg2 } from "assets";
 
 export default function AboutUsSection() {
   return (
-    <section className="aboutus">
+    <section className="aboutus" id="about">
       <div className="aboutus__content">
         <div className="aboutus__content__heading">
           About Frontline Advisory
