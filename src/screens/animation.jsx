@@ -22,7 +22,9 @@ export default function Animation() {
     "Insurance",
     "Oil & Gas",
   ];
-
+  function generateRandomInteger(min, max) {
+    return Math.floor(min + Math.random() * (max - min + 200));
+  }
   return (
     <>
       {popupOpen && (
@@ -140,14 +142,14 @@ export default function Animation() {
                   animation: `animation__container__center__piece__entry__${
                     index + 1
                   } 200ms both`,
-                  animationDelay: `${(index + 1) * 200}ms`,
+                  animationDelay: `${generateRandomInteger(300, 1000)}ms`,
                 }}
                 key={index}
               >
                 <div
                   className="animation__container__center__piece__entry__line"
                   style={{
-                    animationDelay: `${(index + 1) * 200}ms`,
+                    animationDelay: `${generateRandomInteger(300, 1000)}ms`,
                   }}
                 />
                 <button
