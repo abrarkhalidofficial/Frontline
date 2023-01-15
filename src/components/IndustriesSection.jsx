@@ -31,8 +31,17 @@ export default function IndustriesSection() {
     PngIndustriesleftimg,
     PngIndustriesleftimg,
     PngIndustriesleftimg,
+    PngIndustriesleftimg,
+    PngIndustriesleftimg,
+    PngIndustriesleftimg,
+    PngIndustriesleftimg,
+    PngIndustriesleftimg,
+    PngIndustriesleftimg,
+    PngIndustriesleftimg,
+    PngIndustriesleftimg,
   ];
   const [selectedImage, setSelectedImage] = React.useState(0);
+
   return (
     <section className="industries" id="Industries">
       <div className="industries__content__heading">Industries</div>
@@ -40,7 +49,6 @@ export default function IndustriesSection() {
         <div className="industries__content__left">
           <div className="industries__content__left__content">
             <div className="industries__content__left__content__img">
-              {" "}
               {images
                 .filter((_image, index) => index === selectedImage)
                 .map((image, index) => (
@@ -50,34 +58,32 @@ export default function IndustriesSection() {
           </div>
         </div>
         <div className="industries__content__right">
-          {" "}
-          {images.map((_image, index) => (
+          {text.map((item, index) => (
             <button
               key={index}
               className={
                 index === selectedImage
-                  ? "industries__content__right__button active"
+                  ? "industries__content__right__button__active"
                   : "industries__content__right__button"
               }
               onClick={() => setSelectedImage(index)}
             >
-              {text[index]}
+              {item}
             </button>
           ))}
         </div>
         <div className="industries__content__right">
-          {" "}
-          {images.map((_image, index) => (
+          {texttwo.map((item, index) => (
             <button
               key={index}
               className={
-                index === selectedImage
-                  ? "industries__content__right__button active"
+                index + text.length === selectedImage
+                  ? "industries__content__right__button__active"
                   : "industries__content__right__button"
               }
-              onClick={() => setSelectedImage(index)}
+              onClick={() => setSelectedImage(index + text.length)}
             >
-              {texttwo[index]}
+              {item}
             </button>
           ))}
         </div>

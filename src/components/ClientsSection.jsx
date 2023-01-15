@@ -9,7 +9,8 @@ import {
   PngClientswiperimg7,
 } from "../assets";
 import { Swiper, SwiperSlide } from "swiper/react";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+
 export default function ClientsSection() {
   const [slidesPerView, setSlidesPerView] = useState(6);
   function changeSlidesPerView() {

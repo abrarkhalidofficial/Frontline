@@ -304,9 +304,14 @@ body::-webkit-scrollbar-track {
   margin-top: 1em;
   margin: 0.5em;
   margin-left: 3em;
+  cursor: pointer;
 }
 .industries__content__right button:hover {
   color: #f9f9f9;
+  background: linear-gradient(174.33deg, #89b011 40.13%, #6d8e07 85.2%);
+}
+.industries__content__right__button__active {
+  color: #f9f9f9 !important;
   background: linear-gradient(174.33deg, #89b011 40.13%, #6d8e07 85.2%);
 }
 .industries__content__left__content__img img {

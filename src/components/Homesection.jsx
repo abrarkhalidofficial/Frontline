@@ -1,5 +1,4 @@
 import { PngHomesectionback } from "../assets";
-import React from "react";
 
 export default function Homesection() {
   return (

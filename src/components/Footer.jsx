@@ -139,8 +139,8 @@ export default function Footer() {
               </div>
             </div>
           </div>
-        </div>{" "}
-        <div className="hr"></div>
+        </div>
+        <div className="hr" />
         <div className="footer__bottom">
           <div className="footer__bottom__content">
             <div className="footer__bottom__content__left">

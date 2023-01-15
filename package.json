@@ -14,7 +14,7 @@
     "react-click-away-listener": "^2.2.2",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "react-router-dom": "6.6.1",
+    "react-router-dom": "6.6.2",
     "swiper": "^8.4.5"
   },
   "devDependencies": {
@@ -29,6 +29,6 @@
     "vite-plugin-compression": "^0.5.1",
     "vite-plugin-hot-export": "^0.5.9",
     "vite-plugin-imagemin": "^0.6.1",
-    "vite-plugin-webfont-dl": "^3.4.2"
+    "vite-plugin-webfont-dl": "^3.4.3"
   }
 }

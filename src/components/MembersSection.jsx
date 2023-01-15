@@ -1,5 +1,4 @@
 import { PngMamberbackground, PngTeamcardimg } from "../assets";
-import React from "react";
 
 export default function MembersSection() {
   return (

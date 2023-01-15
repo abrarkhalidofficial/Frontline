@@ -1,15 +1,15 @@
+import { Link, useNavigate } from "react-router-dom";
 import { useLayoutEffect, useState } from "react";
 
 import ClickAwayListener from "react-click-away-listener";
-import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import React from "react";
 import { PngHeaderlogo } from "assets";
 
 export default function Header() {
+  const naivgate = useNavigate();
   const [isNavOpen, setIsNavOpen] = useState(true);
   const [isScroll, setIsScroll] = useState(false);
-  const [show, setShow] = useState(false);
+
   function changeIsNavOpen() {
     if (window.innerWidth <= 945) {
       setIsNavOpen(false);
@@ -128,12 +128,18 @@ export default function Header() {
                     Team
                   </Link>
 
-                  <button className="header__entry__button">Evaluator</button>
+                  <button
+                    onClick={() => {
+                      naivgate("/elevalator");
+                    }}
+                    className="header__entry__button"
+                  >
+                    Evaluator
+                  </button>
                 </div>
               </ClickAwayListener>
             ) : null}
           </div>
-          {/* <div className="header__navbar__right"></div> */}
         </div>
       </div>
     </>

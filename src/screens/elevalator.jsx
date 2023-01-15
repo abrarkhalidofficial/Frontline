@@ -1,7 +1,7 @@
 import ClickAwayListener from "react-click-away-listener";
 import { useState } from "react";
 
-export default function Animation() {
+export default function Elevalator() {
   const [popupOpen, setPopupOpen] = useState(false);
   const [show, setShow] = useState(false);
   const list = [

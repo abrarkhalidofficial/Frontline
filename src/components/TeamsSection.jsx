@@ -1,5 +1,4 @@
 import { PngTeamsectionback } from "../assets";
-import React from "react";
 
 export default function TeamsSection() {
   return (
