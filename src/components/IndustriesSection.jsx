@@ -2,6 +2,37 @@ import { PngIndustriesleftimg } from "../assets";
 import React from "react";
 
 export default function IndustriesSection() {
+  const text = [
+    "Telecommunication",
+    "Paints",
+    "Chemical",
+    "Automobile",
+    "Airline",
+    "Locomotive",
+    "Information Technology",
+    "Home Appliances",
+  ];
+  const texttwo = [
+    "Logistics",
+    "Construction",
+    "Real Estate",
+    "Textile",
+    "Infrastructure",
+    "IT",
+    "Insurance",
+    "Oil & Gas",
+  ];
+  const images = [
+    PngIndustriesleftimg,
+    PngIndustriesleftimg,
+    PngIndustriesleftimg,
+    PngIndustriesleftimg,
+    PngIndustriesleftimg,
+    PngIndustriesleftimg,
+    PngIndustriesleftimg,
+    PngIndustriesleftimg,
+  ];
+  const [selectedImage, setSelectedImage] = React.useState(0);
   return (
     <section className="industries" id="Industries">
       <div className="industries__content__heading">Industries</div>
@@ -9,29 +40,46 @@ export default function IndustriesSection() {
         <div className="industries__content__left">
           <div className="industries__content__left__content">
             <div className="industries__content__left__content__img">
-              <img src={PngIndustriesleftimg} alt="PngIndustriesleftimg" />
+              {" "}
+              {images
+                .filter((_image, index) => index === selectedImage)
+                .map((image, index) => (
+                  <img key={index} src={image} alt="PngIndustriesleftimg" />
+                ))}
             </div>
           </div>
         </div>
         <div className="industries__content__right">
-          <button>Telecommunication</button>
-          <button>Paints</button>
-          <button>Chemical</button>
-          <button>Automobile</button>
-          <button>Airline</button>
-          <button>Locomotive</button>
-          <button>Information</button>
-          <button>Home Appliances</button>
+          {" "}
+          {images.map((_image, index) => (
+            <button
+              key={index}
+              className={
+                index === selectedImage
+                  ? "industries__content__right__button active"
+                  : "industries__content__right__button"
+              }
+              onClick={() => setSelectedImage(index)}
+            >
+              {text[index]}
+            </button>
+          ))}
         </div>
         <div className="industries__content__right">
-          <button>Logistics</button>
-          <button>Construction</button>
-          <button>Real Estate</button>
-          <button>Textile</button>
-          <button>Infrastructure</button>
-          <button>IT</button>
-          <button>Insurance</button>
-          <button>Oil & Gas</button>
+          {" "}
+          {images.map((_image, index) => (
+            <button
+              key={index}
+              className={
+                index === selectedImage
+                  ? "industries__content__right__button active"
+                  : "industries__content__right__button"
+              }
+              onClick={() => setSelectedImage(index)}
+            >
+              {texttwo[index]}
+            </button>
+          ))}
         </div>
       </div>
     </section>
