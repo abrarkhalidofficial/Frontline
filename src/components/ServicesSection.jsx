@@ -84,6 +84,31 @@ export default function ServicesSection() {
           </>
         ) : selectedTab === 1 ? (
           <>
+            {" "}
+            <div className="services__content__right">
+              <div className="services__content__right__content">
+                <div className="services__content__right__content__heading">
+                  Complete deal negotiation
+                </div>
+                <div className="services__content__right__content__span"></div>
+                <div className="services__content__right__content__text">
+                  Negotiation with the Target Company Preparation of Term Sheet,
+                  EOI, SPA etc. Coordination for Tax & legal due diligence Full
+                  support during acquisitions of companies and groups
+                </div>
+              </div>
+              <div className="services__content__right__content">
+                <div className="services__content__right__content__heading">
+                  M&A Deal Structuring
+                </div>
+                <div className="services__content__right__content__span"></div>
+                <div className="services__content__right__content__text">
+                  Buy Side/Sell Side readiness assessment Target identification
+                  and screening Pre Bid Advisory and diligence Term sheet/SPA
+                  preparation & negotiation
+                </div>
+              </div>
+            </div>
             <div className="services__content__right">
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
@@ -106,30 +131,6 @@ export default function ServicesSection() {
                   Generating acquisition deal flow Providing valuation and
                   structuring advice Delivering funding solutions Pre
                   acquisition planning- post acquisition support
-                </div>
-              </div>
-            </div>
-            <div className="services__content__right">
-              <div className="services__content__right__content">
-                <div className="services__content__right__content__heading">
-                  Complete deal negotiation
-                </div>
-                <div className="services__content__right__content__span"></div>
-                <div className="services__content__right__content__text">
-                  Negotiation with the Target Company Preparation of Term Sheet,
-                  EOI, SPA etc. Coordination for Tax & legal due diligence Full
-                  support during acquisitions of companies and groups
-                </div>
-              </div>
-              <div className="services__content__right__content">
-                <div className="services__content__right__content__heading">
-                  M&A Deal Structuring
-                </div>
-                <div className="services__content__right__content__span"></div>
-                <div className="services__content__right__content__text">
-                  Buy Side/Sell Side readiness assessment Target identification
-                  and screening Pre Bid Advisory and diligence Term sheet/SPA
-                  preparation & negotiation
                 </div>
               </div>
             </div>
@@ -188,6 +189,31 @@ export default function ServicesSection() {
           </>
         ) : selectedTab === 3 ? (
           <>
+            {" "}
+            <div className="services__content__right">
+              <div className="services__content__right__content">
+                <div className="services__content__right__content__heading">
+                  Complete deal negotiation
+                </div>
+                <div className="services__content__right__content__span"></div>
+                <div className="services__content__right__content__text">
+                  Negotiation with the Target Company Preparation of Term Sheet,
+                  EOI, SPA etc. Coordination for Tax & legal due diligence Full
+                  support during acquisitions of companies and groups
+                </div>
+              </div>
+              <div className="services__content__right__content">
+                <div className="services__content__right__content__heading">
+                  M&A Deal Structuring
+                </div>
+                <div className="services__content__right__content__span"></div>
+                <div className="services__content__right__content__text">
+                  Buy Side/Sell Side readiness assessment Target identification
+                  and screening Pre Bid Advisory and diligence Term sheet/SPA
+                  preparation & negotiation
+                </div>
+              </div>
+            </div>
             <div className="services__content__right">
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
@@ -210,30 +236,6 @@ export default function ServicesSection() {
                   Generating acquisition deal flow Providing valuation and
                   structuring advice Delivering funding solutions Pre
                   acquisition planning- post acquisition support
-                </div>
-              </div>
-            </div>
-            <div className="services__content__right">
-              <div className="services__content__right__content">
-                <div className="services__content__right__content__heading">
-                  Complete deal negotiation
-                </div>
-                <div className="services__content__right__content__span"></div>
-                <div className="services__content__right__content__text">
-                  Negotiation with the Target Company Preparation of Term Sheet,
-                  EOI, SPA etc. Coordination for Tax & legal due diligence Full
-                  support during acquisitions of companies and groups
-                </div>
-              </div>
-              <div className="services__content__right__content">
-                <div className="services__content__right__content__heading">
-                  M&A Deal Structuring
-                </div>
-                <div className="services__content__right__content__span"></div>
-                <div className="services__content__right__content__text">
-                  Buy Side/Sell Side readiness assessment Target identification
-                  and screening Pre Bid Advisory and diligence Term sheet/SPA
-                  preparation & negotiation
                 </div>
               </div>
             </div>
