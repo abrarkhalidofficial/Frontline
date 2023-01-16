@@ -40,6 +40,7 @@ body::-webkit-scrollbar-track {
   max-width: 1920px;
   margin: 0 auto;
   position: relative;
+  background-color: #4d2b10;
 }
 .homesection__content__background {
   width: 100%;
@@ -218,6 +219,7 @@ body::-webkit-scrollbar-track {
   cursor: pointer;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  font-family: "Bebas Kai Regular";
 }
 .services__content__left__content__heading:hover {
   background-color: #000;
@@ -242,6 +244,7 @@ body::-webkit-scrollbar-track {
   font-size: 24px;
   color: #1a2a43;
   font-weight: bold;
+  font-family: "Bebas Kai Regular";
 }
 .services__content__right__content__text {
   font-size: 16px;
