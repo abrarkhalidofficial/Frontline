@@ -41,8 +41,19 @@ export default function Header() {
               : "header__navbar"
           }
         >
-          <div className="header__navbar__center">
-            <NavLink to="/" className="header__logo">
+          <div
+            className="header__navbar__center"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1300"
+          >
+            <NavLink
+              to="/"
+              className="header__logo"
+              data-aos="fade-right"
+              data-aos-delay="60"
+              data-aos-duration="1300"
+            >
               <img src={PngHeaderlogo} alt="logo" />
             </NavLink>
             <div

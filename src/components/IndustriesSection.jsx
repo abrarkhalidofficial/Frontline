@@ -60,7 +60,14 @@ export default function IndustriesSection() {
 
   return (
     <section className="industries" id="Industries">
-      <div className="industries__content__heading">Industries</div>
+      <div
+        className="industries__content__heading"
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
+        Industries
+      </div>
       <div className="industries__content">
         <div className="industries__content__left">
           <div className="industries__content__left__content">
@@ -73,7 +80,12 @@ export default function IndustriesSection() {
             </div>
           </div>
         </div>
-        <div className="industries__content__right">
+        <div
+          className="industries__content__right"
+          data-aos="fade-up"
+          data-aos-delay="60"
+          data-aos-duration="1300"
+        >
           {text.map((item, index) => (
             <button
               key={index}
@@ -88,7 +100,12 @@ export default function IndustriesSection() {
             </button>
           ))}
         </div>
-        <div className="industries__content__right">
+        <div
+          className="industries__content__right"
+          data-aos="fade-up"
+          data-aos-delay="70"
+          data-aos-duration="1500"
+        >
           {texttwo.map((item, index) => (
             <button
               key={index}

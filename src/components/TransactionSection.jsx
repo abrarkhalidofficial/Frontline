@@ -22,8 +22,20 @@ export default function TransactionSection() {
   }, []);
   return (
     <section className="transaction">
-      <div className="transaction__heading">Team Transaction Experience</div>
-      <div className="transaction__content">
+      <div
+        className="transaction__heading"
+        data-aos="fade-up"
+        data-aos-delay="60"
+        data-aos-duration="1300"
+      >
+        Team Transaction Experience
+      </div>
+      <div
+        className="transaction__content"
+        data-aos="fade-up"
+        data-aos-delay="70"
+        data-aos-duration="1500"
+      >
         <Swiper
           className="swiper-container"
           spaceBetween={50}

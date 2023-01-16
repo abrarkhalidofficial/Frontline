@@ -12,9 +12,21 @@ export default function ServicesSection() {
   ];
   return (
     <section className="services" id="Services">
-      <div className="services__content__heading">Our Services</div>
+      <div
+        className="services__content__heading"
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
+        Our Services
+      </div>
       <div className="services__content">
-        <div className="services__content__left">
+        <div
+          className="services__content__left"
+          data-aos="fade-up"
+          data-aos-delay="70"
+          data-aos-duration="1500"
+        >
           <div className="services__content__left__content">
             {selectionList.map((item, index) => (
               <div
@@ -32,7 +44,12 @@ export default function ServicesSection() {
         </div>
         {selectedTab === 0 ? (
           <>
-            <div className="services__content__right">
+            <div
+              className="services__content__right"
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="1500"
+            >
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
                   Stock market listing advisory (IPO)
@@ -70,7 +87,12 @@ export default function ServicesSection() {
                 </div>
               </div>
             </div>
-            <div className="services__content__right">
+            <div
+              className="services__content__right"
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="1500"
+            >
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
                   Arrangement of Bank Financing
@@ -190,7 +212,12 @@ export default function ServicesSection() {
           </>
         ) : selectedTab === 2 ? (
           <>
-            <div className="services__content__right">
+            <div
+              className="services__content__right"
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="1500"
+            >
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
                   Deal Advisory
@@ -229,7 +256,12 @@ export default function ServicesSection() {
                 </div>
               </div>
             </div>
-            <div className="services__content__right">
+            <div
+              className="services__content__right"
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="1500"
+            >
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
                   Transaction Structuring
@@ -271,7 +303,12 @@ export default function ServicesSection() {
           </>
         ) : selectedTab === 3 ? (
           <>
-            <div className="services__content__right">
+            <div
+              className="services__content__right"
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="1500"
+            >
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
                   Financial Planning & Analysis
@@ -309,7 +346,12 @@ export default function ServicesSection() {
                 </div>
               </div>
             </div>
-            <div className="services__content__right">
+            <div
+              className="services__content__right"
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="1500"
+            >
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
                   Corporate and Regulatory Support

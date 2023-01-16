@@ -5,10 +5,20 @@ export default function Footer() {
     <>
       <section className="footer">
         <div className="footer__content">
-          <div className="footer__content__left">
+          <div
+            className="footer__content__left"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1200"
+          >
             <img src={PngFooterlogo} alt="footerlogo" />
           </div>
-          <div className="footer__content__right">
+          <div
+            className="footer__content__right"
+            data-aos="fade-up"
+            data-aos-delay="70"
+            data-aos-duration="1500"
+          >
             <div className="footer__content__right__links">
               <div className="footer__content__right__links__item">
                 <div className="footer__content__right__links__item__svg">

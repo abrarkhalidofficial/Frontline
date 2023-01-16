@@ -34,8 +34,20 @@ export default function ClientsSection() {
   }, []);
   return (
     <section className="clients">
-      <div className="clients__heading">Our clients</div>
-      <div className="clients__content">
+      <div
+        className="clients__heading"
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
+        Our clients
+      </div>
+      <div
+        className="clients__content"
+        data-aos="fade-up"
+        data-aos-delay="60"
+        data-aos-duration="1300"
+      >
         <Swiper
           className="swiper-container"
           spaceBetween={50}

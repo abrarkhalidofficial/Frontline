@@ -4,13 +4,23 @@ export default function TeamsSection() {
   return (
     <section className="teamcard" id="Team">
       <div className="teamcard__content">
-        <div className="teamcard__content__heading">
+        <div
+          className="teamcard__content__heading"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
           One of the most active advisory firm in the region with total deal
           closure experience in excess of Aggregate deal value of over USD 1,000
           Million instead of USD 500 Million.
         </div>
         <div className="teamcard__content__all__card">
-          <div className="teamcard__content__card">
+          <div
+            className="teamcard__content__card"
+            data-aos="fade-up"
+            data-aos-delay="60"
+            data-aos-duration="1300"
+          >
             <div className="teamcard__content__card__content">
               <div className="teamcard__content__card__content__svg">
                 <svg
@@ -120,7 +130,12 @@ export default function TeamsSection() {
               </div>
             </div>
           </div>
-          <div className="teamcard__content__card">
+          <div
+            className="teamcard__content__card"
+            data-aos="fade-up"
+            data-aos-delay="70"
+            data-aos-duration="1500"
+          >
             <div className="teamcard__content__card__content">
               <div className="teamcard__content__card__content__svg">
                 <svg
@@ -154,7 +169,12 @@ export default function TeamsSection() {
               </div>
             </div>
           </div>
-          <div className="teamcard__content__card">
+          <div
+            className="teamcard__content__card"
+            data-aos="fade-up"
+            data-aos-delay="80"
+            data-aos-duration="1700"
+          >
             <div className="teamcard__content__card__content">
               <div className="teamcard__content__card__content__svg">
                 <svg

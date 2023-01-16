@@ -3,21 +3,48 @@ import { PngMamberbackground, PngTeamcardimg } from "../assets";
 export default function MembersSection() {
   return (
     <section className="members">
-      <div className="members__content__heading">Team Members</div>
+      <div
+        className="members__content__heading"
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
+        Team Members
+      </div>
       <div className="members__content">
         <div className="members__content__all__card">
           <div className="members__content__card">
             <div className="members__content__card__content">
-              <div className="members__content__card__image">
+              <div
+                className="members__content__card__image"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1200"
+              >
                 <img src={PngTeamcardimg} alt="teamcardimg" />
               </div>
-              <div className="members__content__card__heading">
-                Muhammad Ali
+              <div
+                className="members__content__card__heading"
+                data-aos="fade-up"
+                data-aos-delay="70"
+                data-aos-duration="1500"
+              >
+                Nadeem Butt
               </div>
-              <div className="members__content__card__info">
+              <div
+                className="members__content__card__info"
+                data-aos="fade-up"
+                data-aos-delay="70"
+                data-aos-duration="1500"
+              >
                 Chief Executive Officer
               </div>
-              <div className="members__content__card__links">
+              <div
+                className="members__content__card__links"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1300"
+              >
                 <a href="#">
                   <svg
                     width="12"
@@ -75,26 +102,51 @@ export default function MembersSection() {
                   </svg>
                 </a>
               </div>
-              <div className="members__content__card__text">
+              <div
+                className="members__content__card__text"
+                data-aos="fade-up"
+                data-aos-delay="80"
+                data-aos-duration="1500"
+              >
                 An investment banker by profession having more than 30 years of
                 extensive experience in project finance, business development
                 and general management. Mr. Nadeem has been involved in various
                 aspects of business development ......
               </div>
             </div>
-          </div>
+          </div>{" "}
           <div className="members__content__card">
             <div className="members__content__card__content">
-              <div className="members__content__card__image">
+              <div
+                className="members__content__card__image"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1200"
+              >
                 <img src={PngTeamcardimg} alt="teamcardimg" />
               </div>
-              <div className="members__content__card__heading">
-                Muhammad Ali
+              <div
+                className="members__content__card__heading"
+                data-aos="fade-up"
+                data-aos-delay="70"
+                data-aos-duration="1500"
+              >
+                Muhammad Arslan
               </div>
-              <div className="members__content__card__info">
-                Chief Executive Officer
+              <div
+                className="members__content__card__info"
+                data-aos="fade-up"
+                data-aos-delay="70"
+                data-aos-duration="1500"
+              >
+                Managing Director
               </div>
-              <div className="members__content__card__links">
+              <div
+                className="members__content__card__links"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1300"
+              >
                 <a href="#">
                   <svg
                     width="12"
@@ -152,26 +204,52 @@ export default function MembersSection() {
                   </svg>
                 </a>
               </div>
-              <div className="members__content__card__text">
-                An investment banker by profession having more than 30 years of
-                extensive experience in project finance, business development
-                and general management. Mr. Nadeem has been involved in various
-                aspects of business development ......
+              <div
+                className="members__content__card__text"
+                data-aos="fade-up"
+                data-aos-delay="80"
+                data-aos-duration="1500"
+              >
+                As a member chartered certified account and CFA Charter Holder,
+                he leads our corporate- and investment-banking, helping clients
+                across sell-side, buy-side, and market infrastructure to
+                transform and improve performance through the use of
+                technology.....
               </div>
             </div>
           </div>
           <div className="members__content__card">
             <div className="members__content__card__content">
-              <div className="members__content__card__image">
+              <div
+                className="members__content__card__image"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1200"
+              >
                 <img src={PngTeamcardimg} alt="teamcardimg" />
               </div>
-              <div className="members__content__card__heading">
-                Muhammad Ali
+              <div
+                className="members__content__card__heading"
+                data-aos="fade-up"
+                data-aos-delay="70"
+                data-aos-duration="1500"
+              >
+                Istafa Baqar Zaidi
               </div>
-              <div className="members__content__card__info">
-                Chief Executive Officer
+              <div
+                className="members__content__card__info"
+                data-aos="fade-up"
+                data-aos-delay="70"
+                data-aos-duration="1500"
+              >
+                Director Transaction Advisory
               </div>
-              <div className="members__content__card__links">
+              <div
+                className="members__content__card__links"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1300"
+              >
                 <a href="#">
                   <svg
                     width="12"
@@ -229,11 +307,17 @@ export default function MembersSection() {
                   </svg>
                 </a>
               </div>
-              <div className="members__content__card__text">
-                An investment banker by profession having more than 30 years of
-                extensive experience in project finance, business development
-                and general management. Mr. Nadeem has been involved in various
-                aspects of business development ......
+              <div
+                className="members__content__card__text"
+                data-aos="fade-up"
+                data-aos-delay="80"
+                data-aos-duration="1500"
+              >
+                Mr. Istafa Zaidi is leading the investment banking wing of the
+                Company and is specialized in Stock Market Listing, Private
+                Equity, Venture Funding, Joint Venture, and M&A. He is a
+                Professional Accountant and Investment Banker with an Masters
+                from a .....
               </div>
             </div>
           </div>

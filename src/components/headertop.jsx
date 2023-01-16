@@ -3,7 +3,12 @@ import React from "react";
 export default function headertop() {
   return (
     <>
-      <section className="headertop">
+      <section
+        className="headertop"
+        data-aos="fade-right"
+        data-aos-delay="70"
+        data-aos-duration="1500"
+      >
         <div className="headertop__content">
           <div className="headertop__contetnt__svg">
             <svg
