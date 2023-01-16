@@ -35,38 +35,58 @@ export default function ServicesSection() {
             <div className="services__content__right">
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                  Reverse Merger – Technical Listing
+                  Stock market listing advisory (IPO)
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Identification of Company for acquisition Complete
-                  understanding of substantial takeover laws Coordination with
-                  CCP, MTO, SECP, PSX Tax & legal structuring of the
-                  transactions
+                  Company preparation for IPO
+                </div>
+                <div className="services__content__right__content__text">
+                  Arrangement of underwriting syndicate
+                </div>
+                <div className="services__content__right__content__text">
+                  Arrangement of Book Builders
+                </div>
+                <div className="services__content__right__content__text">
+                  Coordination with PSX/SECP etc.
                 </div>
               </div>
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                  360º M&A advisory
+                   Private Equity Placement
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Generating acquisition deal flow Providing valuation and
-                  structuring advice Delivering funding solutions Pre
-                  acquisition planning- post acquisition support
+                  Company Valuation
+                </div>
+                <div className="services__content__right__content__text">
+                  Identification of potential private equity investors
+                </div>
+                <div className="services__content__right__content__text">
+                  Deal negotiation
+                </div>
+                <div className="services__content__right__content__text">
+                  Term Sheet Preparation
                 </div>
               </div>
             </div>
             <div className="services__content__right">
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                  Complete deal negotiation
+                   Arrangement of Bank Financing
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Negotiation with the Target Company Preparation of Term Sheet,
-                  EOI, SPA etc. Coordination for Tax & legal due diligence Full
-                  support during acquisitions of companies and groups
+                  Bilateral/Syndicated Facility
+                </div>
+                <div className="services__content__right__content__text">
+                  Project Finance facility
+                </div>
+                <div className="services__content__right__content__text">
+                  Commercial Paper
+                </div>
+                <div className="services__content__right__content__text">
+                  Sukuk/Term Finance Certificates etc.
                 </div>
               </div>
               <div className="services__content__right__content">
@@ -75,9 +95,16 @@ export default function ServicesSection() {
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Buy Side/Sell Side readiness assessment Target identification
-                  and screening Pre Bid Advisory and diligence Term sheet/SPA
-                  preparation & negotiation
+                  Identification of Company for acquisition
+                </div>
+                <div className="services__content__right__content__text">
+                  Complete understanding of substantial takeover laws
+                </div>
+                <div className="services__content__right__content__text">
+                  Coordination with CCP, MTO, SECP, PSX
+                </div>
+                <div className="services__content__right__content__text">
+                  Tax & legal structuring of the transactions
                 </div>
               </div>
             </div>
@@ -91,9 +118,16 @@ export default function ServicesSection() {
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Negotiation with the Target Company Preparation of Term Sheet,
-                  EOI, SPA etc. Coordination for Tax & legal due diligence Full
-                  support during acquisitions of companies and groups
+                  Negotiation with the Target Company
+                </div>
+                <div className="services__content__right__content__text">
+                  Preparation of Term Sheet, EOI, SPA etc.
+                </div>
+                <div className="services__content__right__content__text">
+                  Coordination for Tax & legal due diligence
+                </div>
+                <div className="services__content__right__content__text">
+                  Full support during acquisitions of companies and groups
                 </div>
               </div>
               <div className="services__content__right__content">
@@ -102,9 +136,16 @@ export default function ServicesSection() {
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Buy Side/Sell Side readiness assessment Target identification
-                  and screening Pre Bid Advisory and diligence Term sheet/SPA
-                  preparation & negotiation
+                  Buy Side/Sell Side readiness assessment
+                </div>
+                <div className="services__content__right__content__text">
+                  Target identification and screening
+                </div>
+                <div className="services__content__right__content__text">
+                  Pre Bid Advisory and diligence
+                </div>
+                <div className="services__content__right__content__text">
+                  Term sheet/SPA preparation & negotiation
                 </div>
               </div>
             </div>
@@ -115,10 +156,16 @@ export default function ServicesSection() {
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Identification of Company for acquisition Complete
-                  understanding of substantial takeover laws Coordination with
-                  CCP, MTO, SECP, PSX Tax & legal structuring of the
-                  transactions
+                  Identification of Company for acquisition
+                </div>
+                <div className="services__content__right__content__text">
+                  Complete understanding of substantial takeover laws
+                </div>
+                <div className="services__content__right__content__text">
+                  Coordination with CCP, MTO, SECP, PSX
+                </div>
+                <div className="services__content__right__content__text">
+                  Tax & legal structuring of the transactions
                 </div>
               </div>
               <div className="services__content__right__content">
@@ -127,9 +174,16 @@ export default function ServicesSection() {
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Generating acquisition deal flow Providing valuation and
-                  structuring advice Delivering funding solutions Pre
-                  acquisition planning- post acquisition support
+                  Generating acquisition deal flow
+                </div>
+                <div className="services__content__right__content__text">
+                  Providing valuation and structuring advice
+                </div>
+                <div className="services__content__right__content__text">
+                  Delivering funding solutions
+                </div>
+                <div className="services__content__right__content__text">
+                  Pre acquisition planning- post acquisition support
                 </div>
               </div>
             </div>
@@ -139,49 +193,78 @@ export default function ServicesSection() {
             <div className="services__content__right">
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                  Reverse Merger – Technical Listing
+                   Deal Advisory
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Identification of Company for acquisition Complete
-                  understanding of substantial takeover laws Coordination with
-                  CCP, MTO, SECP, PSX Tax & legal structuring of the
-                  transactions
+                  Privatisations
+                </div>
+                <div className="services__content__right__content__text">
+                  Financial Due Diligence
+                </div>
+                <div className="services__content__right__content__text">
+                  Corporate Finance (M&A Advisory, Infrastructure & Debt
+                  Advisory)
+                </div>
+                <div className="services__content__right__content__text">
+                  Valuations and financial analyses
                 </div>
               </div>
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                  360º M&A advisory
+                   Financial Advisory
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Generating acquisition deal flow Providing valuation and
-                  structuring advice Delivering funding solutions Pre
-                  acquisition planning- post acquisition support
+                  Financial Modelling & Business Planning
+                </div>
+                <div className="services__content__right__content__text">
+                  Company Valuation
+                </div>
+                <div className="services__content__right__content__text">
+                  Business Process Outsourcing
+                </div>
+                <div className="services__content__right__content__text">
+                  Financial Controls and System Development
                 </div>
               </div>
             </div>
             <div className="services__content__right">
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                  Complete deal negotiation
+                   Transaction Structuring
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Negotiation with the Target Company Preparation of Term Sheet,
-                  EOI, SPA etc. Coordination for Tax & legal due diligence Full
-                  support during acquisitions of companies and groups
+                  Joint Ventures/ Capital Market Offerings
+                </div>
+                <div className="services__content__right__content__text">
+                  Mergers/Spin-offs
+                </div>
+                <div className="services__content__right__content__text">
+                  Public Private Partnerships
+                </div>
+                <div className="services__content__right__content__text">
+                  Optimization of tax, accounting, and other objectives of the
+                  deal
                 </div>
               </div>
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                  M&A Deal Structuring
+                   Financial Modelling and Projections
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Buy Side/Sell Side readiness assessment Target identification
-                  and screening Pre Bid Advisory and diligence Term sheet/SPA
-                  preparation & negotiation
+                  Discounted Cash Flow based modelling
+                </div>
+                <div className="services__content__right__content__text">
+                  Investment proposals & financial models and business plan
+                </div>
+                <div className="services__content__right__content__text">
+                  Validation of Financial Models- post audit
+                </div>
+                <div className="services__content__right__content__text">
+                  Preparation of Interactive and Dynamic Dashboards
                 </div>
               </div>
             </div>
@@ -191,49 +274,76 @@ export default function ServicesSection() {
             <div className="services__content__right">
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                  Complete deal negotiation
+                   Financial Planning & Analysis
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Negotiation with the Target Company Preparation of Term Sheet,
-                  EOI, SPA etc. Coordination for Tax & legal due diligence Full
-                  support during acquisitions of companies and groups
+                  Budgeting and Forecasting
+                </div>
+                <div className="services__content__right__content__text">
+                  Business Analysis
+                </div>
+                <div className="services__content__right__content__text">
+                  Advanced Financial Modelling and Analysis
+                </div>
+                <div className="services__content__right__content__text">
+                  Financial Reporting and Balance Sheet Restructuring
                 </div>
               </div>
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                  M&A Deal Structuring
+                   Finance Department Leadership
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Buy Side/Sell Side readiness assessment Target identification
-                  and screening Pre Bid Advisory and diligence Term sheet/SPA
-                  preparation & negotiation
+                  Cash Flow Forecasting and Planning
+                </div>
+                <div className="services__content__right__content__text">
+                  Capital Structure Advice
+                </div>
+                <div className="services__content__right__content__text">
+                  Financial Risk Management
+                </div>
+                <div className="services__content__right__content__text">
+                  Business Intelligence Services
                 </div>
               </div>
             </div>
             <div className="services__content__right">
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                  Reverse Merger – Technical Listing
+                   Corporate and Regulatory Support
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Identification of Company for acquisition Complete
-                  understanding of substantial takeover laws Coordination with
-                  CCP, MTO, SECP, PSX Tax & legal structuring of the
-                  transactions
+                  Recommendation of optimal corporate structure
+                </div>
+                <div className="services__content__right__content__text">
+                  Regulatory Filings with SECP, PSX, CDC, FBR etc.
+                </div>
+                <div className="services__content__right__content__text">
+                  Company readiness and listing Compliance
+                </div>
+                <div className="services__content__right__content__text">
+                  Coordination with regulators (SECP,FBR, CDC,PSX etc.)
                 </div>
               </div>
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                  360º M&A advisory
+                   Taxation Services
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
-                  Generating acquisition deal flow Providing valuation and
-                  structuring advice Delivering funding solutions Pre
-                  acquisition planning- post acquisition support
+                  Tax Strategic Consulting and Advisory
+                </div>
+                <div className="services__content__right__content__text">
+                  Corporate and international tax structuring
+                </div>
+                <div className="services__content__right__content__text">
+                  Group tax structuring (Single tax return)
+                </div>
+                <div className="services__content__right__content__text">
+                  Tax Litigation support and Representations
                 </div>
               </div>
             </div>

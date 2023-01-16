@@ -215,6 +215,8 @@ body::-webkit-scrollbar-track {
   padding: 0.5em;
   color: #fff;
   cursor: pointer;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 .services__content__left__content__heading:hover {
   background-color: #000;
@@ -242,6 +244,7 @@ body::-webkit-scrollbar-track {
 }
 .services__content__right__content__text {
   font-size: 16px;
+  padding: 0.3em;
 }
 .services__content__right__content__span {
   padding: 0.2em;
@@ -274,6 +277,9 @@ body::-webkit-scrollbar-track {
   text-align: center;
   margin-bottom: 20px;
   text-transform: uppercase;
+}
+.industries__content__heading {
+  margin-top: 1em;
 }
 .industries__content {
   width: 100%;
@@ -799,6 +805,9 @@ body::-webkit-scrollbar-track {
   .aboutus__content__text {
     max-width: 370px;
     font-size: 14px;
+  }
+  .industries__content__heading {
+    margin-top: 0em;
   }
   .aboutus__content__heading,
   .services__content__heading,
