@@ -189,7 +189,7 @@ body::-webkit-scrollbar-track {
 }
 .services__content__left {
   width: 30%;
-  max-width: 320px;
+  max-width: 400px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -206,12 +206,11 @@ body::-webkit-scrollbar-track {
 }
 .services__content__left__content {
   padding: 3em 1em;
-
   border-radius: 15px;
   background: linear-gradient(180deg, #8db512 0%, #66840b 100%);
 }
 .services__content__left__content__heading {
-  max-width: 320px;
+  max-width: 400px;
   font-size: 22px;
   font-weight: 500;
   padding: 0.5em;
@@ -226,7 +225,7 @@ body::-webkit-scrollbar-track {
   border-radius: 10px;
 }
 .services__content__left__content__heading__active {
-  background-color: #000;
+  background-color: #1a2a43;
   border-radius: 10px;
 }
 .services__content__right {
@@ -237,7 +236,7 @@ body::-webkit-scrollbar-track {
   flex-direction: column;
 }
 .services__content__right__content {
-  max-width: 300px;
+  max-width: 360px;
   padding: 1em;
 }
 .services__content__right__content__heading {
@@ -315,13 +314,14 @@ body::-webkit-scrollbar-track {
   margin: 0.5em;
   margin-left: 3em;
   cursor: pointer;
+  border: 2px solid #efefef;
 }
 .industries__content__right button:hover {
-  color: #f9f9f9;
-  background: linear-gradient(174.33deg, #89b011 40.13%, #6d8e07 85.2%);
+  border: #000 2px solid;
 }
 .industries__content__right__button__active {
   color: #f9f9f9 !important;
+  border: 2px solid #84aa10 !important;
   background: linear-gradient(174.33deg, #89b011 40.13%, #6d8e07 85.2%);
 }
 .industries__content__left__content__img img {
@@ -878,6 +878,6 @@ body::-webkit-scrollbar-track {
     font-size: 12px;
   }
   .industries__content__right button {
-    width: 130px;
+    width: 160px;
   }
 }

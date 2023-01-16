@@ -4,7 +4,13 @@ import { useNavigate } from "react-router-dom";
 export default function Homesection() {
   const naivgate = useNavigate();
   return (
-    <section className="homesection" id="home">
+    <section
+      className="homesection"
+      id="home"
+      data-aos="fade-up"
+      data-aos-delay="70"
+      data-aos-duration="1500"
+    >
       <div className="homesection__content">
         <div className="homesection__content__background">
           <div className="homesection__content__background__image">
