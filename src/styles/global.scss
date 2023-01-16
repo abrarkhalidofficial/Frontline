@@ -324,6 +324,7 @@ body::-webkit-scrollbar-track {
   width: 400px;
   margin: 0 auto;
   max-width: 400px;
+  mix-blend-mode: luminosity;
 }
 .industries__content__left__content__img {
   display: flex;

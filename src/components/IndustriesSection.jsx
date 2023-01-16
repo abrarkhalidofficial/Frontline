@@ -1,4 +1,20 @@
-import { PngIndustriesleftimg } from "../assets";
+import {
+  PngTelecommunication,
+  PngPaints,
+  PngChemical,
+  PngAirline,
+  PngLocomotive,
+  PngHomeAppliances,
+  PngLogistics,
+  PngConstruction,
+  PngRealEstate,
+  PngTextile,
+  PngInfrastructure,
+  PngIt,
+  PngInsurance,
+  PngOilGas,
+  PngAutomobile,
+} from "../assets";
 import React from "react";
 
 export default function IndustriesSection() {
@@ -23,22 +39,22 @@ export default function IndustriesSection() {
     "Oil & Gas",
   ];
   const images = [
-    PngIndustriesleftimg,
-    PngIndustriesleftimg,
-    PngIndustriesleftimg,
-    PngIndustriesleftimg,
-    PngIndustriesleftimg,
-    PngIndustriesleftimg,
-    PngIndustriesleftimg,
-    PngIndustriesleftimg,
-    PngIndustriesleftimg,
-    PngIndustriesleftimg,
-    PngIndustriesleftimg,
-    PngIndustriesleftimg,
-    PngIndustriesleftimg,
-    PngIndustriesleftimg,
-    PngIndustriesleftimg,
-    PngIndustriesleftimg,
+    PngTelecommunication,
+    PngPaints,
+    PngChemical,
+    PngAutomobile,
+    PngAirline,
+    PngLocomotive,
+    PngIt,
+    PngHomeAppliances,
+    PngLogistics,
+    PngConstruction,
+    PngRealEstate,
+    PngTextile,
+    PngInfrastructure,
+    PngIt,
+    PngInsurance,
+    PngOilGas,
   ];
   const [selectedImage, setSelectedImage] = React.useState(0);
 
