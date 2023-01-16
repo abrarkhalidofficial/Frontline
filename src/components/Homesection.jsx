@@ -1,6 +1,8 @@
 import { PngHomesectionback } from "../assets";
+import { useNavigate } from "react-router-dom";
 
 export default function Homesection() {
+  const naivgate = useNavigate();
   return (
     <section className="homesection" id="home">
       <div className="homesection__content">
@@ -28,7 +30,14 @@ export default function Homesection() {
             />
           </svg>
         </div>
-        <button className="homesection__content__button">Get in Touch</button>
+        <button
+          className="homesection__content__button"
+          onClick={() => {
+            naivgate("/elevalator");
+          }}
+        >
+          Get in Touch
+        </button>
       </div>
     </section>
   );

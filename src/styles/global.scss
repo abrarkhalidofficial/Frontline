@@ -103,6 +103,7 @@ body::-webkit-scrollbar-track {
   margin-bottom: 20px;
   text-transform: uppercase;
   font-family: "Bebas Kai Regular";
+  padding-bottom: 0.5em;
 }
 .aboutus__content__text {
   color: #2e2e2e;
@@ -691,6 +692,7 @@ body::-webkit-scrollbar-track {
   }
   .services__content__right {
     width: 90%;
+    align-items: flex-start;
   }
   .services__content__right__content {
     max-width: 700px;
