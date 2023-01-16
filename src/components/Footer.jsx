@@ -76,7 +76,10 @@ export default function Footer() {
             </div>
             <div className="footer__content__right__links">
               <div className="footer__content__right__links__item">
-                <div className="footer__content__right__links__item__svg">
+                <a
+                  href="#"
+                  className="footer__content__right__links__item__svg"
+                >
                   <svg
                     width="20"
                     height="20"
@@ -89,8 +92,11 @@ export default function Footer() {
                       fill="#93C007"
                     />
                   </svg>
-                </div>
-                <div className="footer__content__right__links__item__svg">
+                </a>
+                <a
+                  href="#"
+                  className="footer__content__right__links__item__svg"
+                >
                   <svg
                     width="20"
                     height="17"
@@ -103,8 +109,11 @@ export default function Footer() {
                       fill="#93C007"
                     />
                   </svg>
-                </div>
-                <div className="footer__content__right__links__item__svg">
+                </a>
+                <a
+                  href="#"
+                  className="footer__content__right__links__item__svg"
+                >
                   <svg
                     width="21"
                     height="18"
@@ -119,8 +128,11 @@ export default function Footer() {
                       fill="#93C007"
                     />
                   </svg>
-                </div>
-                <div className="footer__content__right__links__item__svg">
+                </a>
+                <a
+                  href="#"
+                  className="footer__content__right__links__item__svg"
+                >
                   <svg
                     width="20"
                     height="20"
@@ -135,7 +147,7 @@ export default function Footer() {
                       fill="#93C007"
                     />
                   </svg>
-                </div>
+                </a>
               </div>
             </div>
           </div>

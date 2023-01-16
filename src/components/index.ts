@@ -2,6 +2,7 @@ import AboutUsSection from './AboutUsSection.jsx'
 import ClientsSection from './ClientsSection.jsx'
 import Footer from './Footer.jsx'
 import Header from './Header.jsx'
+import Headertop from './headertop.jsx'
 import Homesection from './Homesection.jsx'
 import IndustriesSection from './IndustriesSection.jsx'
 import MembersSection from './MembersSection.jsx'
@@ -14,6 +15,7 @@ export {
   ClientsSection,
   Footer,
   Header,
+  Headertop,
   Homesection,
   IndustriesSection,
   MembersSection,

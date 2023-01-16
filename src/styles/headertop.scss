@@ -1,0 +1,23 @@
+.headertop__content {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  max-width: 1340px;
+  text-align: center;
+  margin-top: 0.4em;
+  cursor: pointer;
+}
+.headertop__content svg {
+  margin-right: 10px;
+}
+.headertop__contetnt__svg svg {
+  margin-right: 0.5em;
+}
+.headertop__contetnt__info {
+  margin-right: 1.3em;
+}
+@media (max-width: 650px) {
+  .headertop {
+    display: none;
+  }
+}
