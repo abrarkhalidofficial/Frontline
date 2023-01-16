@@ -53,7 +53,7 @@ export default function ServicesSection() {
               </div>
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                   Private Equity Placement
+                  Private Equity Placement
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
@@ -73,7 +73,7 @@ export default function ServicesSection() {
             <div className="services__content__right">
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                   Arrangement of Bank Financing
+                  Arrangement of Bank Financing
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
@@ -193,7 +193,7 @@ export default function ServicesSection() {
             <div className="services__content__right">
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                   Deal Advisory
+                  Deal Advisory
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
@@ -212,7 +212,7 @@ export default function ServicesSection() {
               </div>
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                   Financial Advisory
+                  Financial Advisory
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
@@ -232,7 +232,7 @@ export default function ServicesSection() {
             <div className="services__content__right">
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                   Transaction Structuring
+                  Transaction Structuring
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
@@ -251,7 +251,7 @@ export default function ServicesSection() {
               </div>
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                   Financial Modelling and Projections
+                  Financial Modelling and Projections
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
@@ -274,7 +274,7 @@ export default function ServicesSection() {
             <div className="services__content__right">
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                   Financial Planning & Analysis
+                  Financial Planning & Analysis
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
@@ -292,7 +292,7 @@ export default function ServicesSection() {
               </div>
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                   Finance Department Leadership
+                  Finance Department Leadership
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
@@ -312,7 +312,7 @@ export default function ServicesSection() {
             <div className="services__content__right">
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                   Corporate and Regulatory Support
+                  Corporate and Regulatory Support
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
@@ -330,7 +330,7 @@ export default function ServicesSection() {
               </div>
               <div className="services__content__right__content">
                 <div className="services__content__right__content__heading">
-                   Taxation Services
+                  Taxation Services
                 </div>
                 <div className="services__content__right__content__span" />
                 <div className="services__content__right__content__text">
