@@ -37,6 +37,8 @@ body::-webkit-scrollbar-track {
 }
 .homesection {
   width: 100%;
+  display: flex;
+  justify-content: center;
   max-width: 1920px;
   margin: 0 auto;
   position: relative;
