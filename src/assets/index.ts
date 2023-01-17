@@ -18,6 +18,8 @@ import PngFooterlogo from './footerlogo.png'
 import PngHeaderlogo from './headerlogo.png'
 import PngHomeAppliances from './HomeAppliances.png'
 import PngHomesectionback from './homesectionback.png'
+import PngHomesectionback1 from './homesectionback1.png'
+import PngHomesectionback2 from './homesectionback2.png'
 import PngIndustriesleftimg from './industriesleftimg.png'
 import PngInfrastructure from './Infrastructure.png'
 import PngInsurance from './Insurance.png'
@@ -56,6 +58,8 @@ export {
   PngHeaderlogo,
   PngHomeAppliances,
   PngHomesectionback,
+  PngHomesectionback1,
+  PngHomesectionback2,
   PngIndustriesleftimg,
   PngInfrastructure,
   PngInsurance,
