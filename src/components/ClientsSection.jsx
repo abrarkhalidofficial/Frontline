@@ -10,6 +10,7 @@ import {
 } from "../assets";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useState } from "react";
+import { Autoplay } from "swiper";
 
 export default function ClientsSection() {
   const [slidesPerView, setSlidesPerView] = useState(6);
@@ -52,11 +53,19 @@ export default function ClientsSection() {
           className="swiper-container"
           spaceBetween={50}
           slidesPerView={slidesPerView}
+          modules={[Autoplay]}
+          autoplay={{
+            delay: 1000,
+            pauseOnMouseEnter: true,
+            disableOnInteraction: false,
+          }}
+          loop={true}
         >
           <SwiperSlide>
             <div className="client__card">
               <div className="client__card__content">
-                <img src={PngClientswiperimg} alt="PngClientswiperimg" />
+                <img src={PngClientswiperimg} alt="PngClientswiperimg" />{" "}
+                <p>.</p>
               </div>
             </div>
           </SwiperSlide>
