@@ -421,7 +421,7 @@ body::-webkit-scrollbar-track {
   padding-bottom: 3em;
 }
 .members__content__heading {
-  margin-bottom: 2em;
+  // margin-bottom: 2em;
 }
 .members__content__all__card {
   display: flex;
@@ -466,6 +466,7 @@ body::-webkit-scrollbar-track {
 .members__content__card__info {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 .members__content__card__image img {
   margin-top: -7em;

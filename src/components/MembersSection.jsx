@@ -16,14 +16,6 @@ export default function MembersSection() {
           <div className="members__content__card">
             <div className="members__content__card__content">
               <div
-                className="members__content__card__image"
-                data-aos="fade-up"
-                data-aos-delay="60"
-                data-aos-duration="1200"
-              >
-                <img src={PngTeamcardimg} alt="teamcardimg" />
-              </div>
-              <div
                 className="members__content__card__heading"
                 data-aos="fade-up"
                 data-aos-delay="70"
@@ -117,14 +109,6 @@ export default function MembersSection() {
           </div>{" "}
           <div className="members__content__card">
             <div className="members__content__card__content">
-              <div
-                className="members__content__card__image"
-                data-aos="fade-up"
-                data-aos-delay="60"
-                data-aos-duration="1200"
-              >
-                <img src={PngTeamcardimg} alt="teamcardimg" />
-              </div>
               <div
                 className="members__content__card__heading"
                 data-aos="fade-up"
@@ -220,14 +204,6 @@ export default function MembersSection() {
           </div>
           <div className="members__content__card">
             <div className="members__content__card__content">
-              <div
-                className="members__content__card__image"
-                data-aos="fade-up"
-                data-aos-delay="60"
-                data-aos-duration="1200"
-              >
-                <img src={PngTeamcardimg} alt="teamcardimg" />
-              </div>
               <div
                 className="members__content__card__heading"
                 data-aos="fade-up"
