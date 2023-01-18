@@ -30,6 +30,7 @@ export default function ServicesSection() {
           <div className="services__content__left__content">
             {selectionList.map((item, index) => (
               <div
+                key={index}
                 onClick={() => setSelectedTab(index)}
                 className={clsx(
                   "services__content__left__content__heading",

@@ -532,7 +532,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
+  position: relative;
 }
 .animation__popup__input__label {
   font-size: 16px;
@@ -547,6 +548,25 @@
   border-radius: 8px;
   color: white;
 }
+.animation__popup__input__field:focus {
+  outline: 1px solid #93c007;
+  border-color: #93c007;
+}
+.animation__popup__input__field option {
+  color: #0f0f0f;
+}
+.animation__popup__input__error {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  margin-top: 0.5em;
+  bottom: -18px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+}
 .animation__popup__button {
   background-color: #93c007;
   color: white;
@@ -556,6 +576,7 @@
   font-size: 15px;
   cursor: pointer;
   border: none;
+  margin-top: 1em;
 }
 .animation__popup__button:hover {
   background-color: #6c9100;

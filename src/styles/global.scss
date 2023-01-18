@@ -443,12 +443,18 @@ body::-webkit-scrollbar-track {
   flex-wrap: wrap;
   width: 100%;
   max-width: 1200px;
+  margin-top: 1em;
+}
+.members__content__all__card .swiper {
+  padding: 2em 1em;
 }
 
 .members__content__card {
-  width: 33%;
+  width: 100%;
   background-color: #fff;
-  max-width: 300px;
+  max-width: 100%;
+  border: none;
+  margin-right: 0em !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -486,12 +492,12 @@ body::-webkit-scrollbar-track {
   margin-top: -7em;
 }
 .members__content__card__heading {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bold;
   font-family: "Bebas Kai Regular";
 }
 .members__content__card__info {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   margin-top: 0.4em;
   color: #6d8e07;
@@ -504,7 +510,7 @@ body::-webkit-scrollbar-track {
 }
 .members__content__card__text {
   margin-top: 1em;
-  font-size: 16px;
+  font-size: 14px;
   color: #2e2e2e;
 }
 .members__background__img img {
@@ -534,20 +540,17 @@ body::-webkit-scrollbar-track {
   padding-bottom: 3em;
 }
 .transaction__card {
-  width: 20%;
-  max-width: 300px;
+  width: 100%;
   border: 1px solid #000;
   border-radius: 15px;
   border-bottom: none;
-  padding-right: 14em;
-  height: 220px;
 }
 .transaction__card__text {
   font-size: 16px;
   font-weight: 500;
   color: #2e2e2e;
   margin-top: 1em;
-  width: 200px;
+  width: 100%;
 }
 .transaction__card__content {
   padding: 1em;
@@ -622,22 +625,25 @@ body::-webkit-scrollbar-track {
   justify-content: center;
   align-items: center;
   padding-top: 1em;
+  text-decoration: none;
+  color: #fff;
 }
-
+.footer__content__right__links__item:hover {
+  cursor: pointer;
+  color: #95c207;
+}
 .footer__content__right__links__item__svg {
   margin-right: 1em;
 }
 .footer__content__right__links__item__info {
   font-size: 16px;
   font-weight: 500;
-  color: #fff;
 }
 .hr {
   border-top: 1px solid #fff;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1250px;
   margin: 0 auto;
-  padding-bottom: 1em;
 }
 
 .footer__bottom__content__left a {
@@ -649,14 +655,15 @@ body::-webkit-scrollbar-track {
 }
 .footer__bottom__content {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1250px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.footer__bottom__content__right {
+.footer__bottom__content__right * {
   color: #fff;
+  text-decoration: none;
 }
 @media (max-width: 1300px) {
   .footer__content {
@@ -738,11 +745,6 @@ body::-webkit-scrollbar-track {
 
     width: 175px;
   }
-  .industries__content__left,
-  .teamcard__content__card,
-  .members__content__card {
-    width: 90%;
-  }
   .industries__content__left__content__img {
     margin-top: 2em;
   }
@@ -754,10 +756,6 @@ body::-webkit-scrollbar-track {
   }
   .members__content {
     padding-bottom: 0em;
-  }
-
-  .members__content__all__card {
-    flex-direction: column;
   }
   .members__content__card {
     margin-bottom: 9em;
@@ -779,6 +777,9 @@ body::-webkit-scrollbar-track {
   }
   .footer__bottom__content {
     max-width: 600px;
+    flex-direction: column;
+    margin-top: 1em;
+    text-align: center;
   }
   .hr {
     max-width: 600px;
@@ -869,9 +870,6 @@ body::-webkit-scrollbar-track {
   .members__content__card:last-child {
     margin-bottom: 1em;
   }
-  .footer__bottom__content {
-    flex-direction: column;
-  }
   .hr {
     max-width: 300px;
   }
@@ -896,9 +894,6 @@ body::-webkit-scrollbar-track {
   }
   .footer__content__right {
     margin-right: 2em;
-  }
-  .transaction__card {
-    width: 80%;
   }
 }
 @media (max-width: 400px) {

@@ -1,20 +1,21 @@
 import {
-  PngTelecommunication,
-  PngPaints,
-  PngChemical,
+  JpgAutomobile,
+  JpgChemical,
+  JpgConstruction,
+  JpgHomeAppliances,
+  JpgInfrastructure,
+  JpgInsurance,
+  JpgIt,
+  JpgLocomotive,
+  JpgLogistics,
+  JpgOilGas,
+  JpgPaints,
+  JpgRealEstate,
+  JpgTelecommunication,
+  JpgTextile,
   PngAirline,
-  PngLocomotive,
-  PngHomeAppliances,
-  PngLogistics,
-  PngConstruction,
-  PngRealEstate,
-  PngTextile,
-  PngInfrastructure,
-  PngIt,
-  PngInsurance,
-  PngOilGas,
-  PngAutomobile,
 } from "../assets";
+
 import React from "react";
 
 export default function IndustriesSection() {
@@ -39,22 +40,22 @@ export default function IndustriesSection() {
     "Oil & Gas",
   ];
   const images = [
-    PngTelecommunication,
-    PngPaints,
-    PngChemical,
-    PngAutomobile,
+    JpgTelecommunication,
+    JpgPaints,
+    JpgChemical,
+    JpgAutomobile,
     PngAirline,
-    PngLocomotive,
-    PngIt,
-    PngHomeAppliances,
-    PngLogistics,
-    PngConstruction,
-    PngRealEstate,
-    PngTextile,
-    PngInfrastructure,
-    PngIt,
-    PngInsurance,
-    PngOilGas,
+    JpgLocomotive,
+    JpgIt,
+    JpgHomeAppliances,
+    JpgLogistics,
+    JpgConstruction,
+    JpgRealEstate,
+    JpgTextile,
+    JpgInfrastructure,
+    JpgIt,
+    JpgInsurance,
+    JpgOilGas,
   ];
   const [selectedImage, setSelectedImage] = React.useState(0);
 
@@ -75,7 +76,7 @@ export default function IndustriesSection() {
               {images
                 .filter((_image, index) => index === selectedImage)
                 .map((image, index) => (
-                  <img key={index} src={image} alt="PngIndustriesleftimg" />
+                  <img key={index} src={image} alt="JpgIndustriesleftimg" />
                 ))}
             </div>
           </div>

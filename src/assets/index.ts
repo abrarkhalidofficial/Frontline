@@ -2,9 +2,9 @@ import PngAboutusimg from './aboutusimg.png'
 import PngAboutusimg1 from './aboutusimg1.png'
 import PngAboutusimg2 from './aboutusimg2.png'
 import PngAirline from './Airline.png'
-import PngAutomobile from './Automobile.png'
+import JpgAutomobile from './Automobile.jpg'
 import PngBackgroundanimationpage from './backgroundanimationpage.png'
-import PngChemical from './Chemical.png'
+import JpgChemical from './Chemical.jpg'
 import PngClientswiperimg from './clientswiperimg.png'
 import PngClientswiperimg1 from './clientswiperimg1.png'
 import PngClientswiperimg2 from './clientswiperimg2.png'
@@ -13,38 +13,37 @@ import PngClientswiperimg4 from './clientswiperimg4.png'
 import PngClientswiperimg5 from './clientswiperimg5.png'
 import PngClientswiperimg6 from './clientswiperimg6.png'
 import PngClientswiperimg7 from './clientswiperimg7.png'
-import PngConstruction from './Construction.png'
+import JpgConstruction from './Construction.jpg'
 import PngFooterlogo from './footerlogo.png'
 import PngHeaderlogo from './headerlogo.png'
-import PngHomeAppliances from './HomeAppliances.png'
+import JpgHomeAppliances from './HomeAppliances.jpg'
 import PngHomesectionback from './homesectionback.png'
 import PngHomesectionback1 from './homesectionback1.png'
 import PngHomesectionback2 from './homesectionback2.png'
 import PngIndustriesleftimg from './industriesleftimg.png'
-import PngInfrastructure from './Infrastructure.png'
-import PngInsurance from './Insurance.png'
-import PngIt from './IT.png'
-import PngLocomotive from './Locomotive.png'
-import PngLogistics from './Logistics.png'
+import JpgInfrastructure from './Infrastructure.jpg'
+import JpgInsurance from './Insurance.jpg'
+import JpgIt from './IT.jpg'
+import JpgLocomotive from './Locomotive.jpg'
+import JpgLogistics from './Logistics.jpg'
 import PngMamberbackground from './mamberbackground.png'
-import PngOilGas from './OilGas.png'
-import PngPaints from './Paints.png'
-import SvgReact from './react.svg'
-import PngRealEstate from './RealEstate.png'
+import JpgOilGas from './OilGas.jpg'
+import JpgPaints from './Paints.jpg'
+import JpgRealEstate from './RealEstate.jpg'
 import PngServicesback from './servicesback.png'
 import PngTeamcardimg from './teamcardimg.png'
 import PngTeamsectionback from './teamsectionback.png'
-import PngTelecommunication from './Telecommunication.png'
-import PngTextile from './Textile.png'
+import JpgTelecommunication from './Telecommunication.jpg'
+import JpgTextile from './Textile.jpg'
 
 export {
   PngAboutusimg,
   PngAboutusimg1,
   PngAboutusimg2,
   PngAirline,
-  PngAutomobile,
+  JpgAutomobile,
   PngBackgroundanimationpage,
-  PngChemical,
+  JpgChemical,
   PngClientswiperimg,
   PngClientswiperimg1,
   PngClientswiperimg2,
@@ -53,27 +52,26 @@ export {
   PngClientswiperimg5,
   PngClientswiperimg6,
   PngClientswiperimg7,
-  PngConstruction,
+  JpgConstruction,
   PngFooterlogo,
   PngHeaderlogo,
-  PngHomeAppliances,
+  JpgHomeAppliances,
   PngHomesectionback,
   PngHomesectionback1,
   PngHomesectionback2,
   PngIndustriesleftimg,
-  PngInfrastructure,
-  PngInsurance,
-  PngIt,
-  PngLocomotive,
-  PngLogistics,
+  JpgInfrastructure,
+  JpgInsurance,
+  JpgIt,
+  JpgLocomotive,
+  JpgLogistics,
   PngMamberbackground,
-  PngOilGas,
-  PngPaints,
-  SvgReact,
-  PngRealEstate,
+  JpgOilGas,
+  JpgPaints,
+  JpgRealEstate,
   PngServicesback,
   PngTeamcardimg,
   PngTeamsectionback,
-  PngTelecommunication,
-  PngTextile
+  JpgTelecommunication,
+  JpgTextile
 }

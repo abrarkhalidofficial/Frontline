@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function headertop() {
   return (
     <>
@@ -24,7 +22,9 @@ export default function headertop() {
               />
             </svg>
           </div>
-          <div className="headertop__contetnt__info">+92-321-7702909</div>
+          <a href="tel:+92321770290" className="headertop__contetnt__info">
+            +92-321-7702909
+          </a>
           <div className="headertop__contetnt__svg">
             <svg
               width="17"
@@ -39,7 +39,12 @@ export default function headertop() {
               />
             </svg>
           </div>
-          <div className="headertop__contetnt__info">info@frontlineadv.com</div>
+          <a
+            href="mailto:info@frontlineadv.co"
+            className="headertop__contetnt__info"
+          >
+            info@frontlineadv.co
+          </a>
           <div className="headertop__contetnt__svg">
             <svg
               width="16"

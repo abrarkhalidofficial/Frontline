@@ -4,6 +4,7 @@ import { useState } from "react";
 export default function Elevalator() {
   const [popupOpen, setPopupOpen] = useState(false);
   const [show, setShow] = useState(false);
+  const [selectedIndustry, setSelectedIndustry] = useState("");
   const list = [
     "Telecommunication",
     "Paints",
@@ -62,11 +63,20 @@ export default function Elevalator() {
                 <label htmlFor="" className="animation__popup__input__label">
                   Industry
                 </label>
-                <input
+                <select
                   type="text"
                   className="animation__popup__input__field"
                   placeholder="Industry name"
-                />
+                  value={selectedIndustry}
+                  onChange={(e) => {
+                    setSelectedIndustry(e.target.value);
+                  }}
+                >
+                  {list.map((item) => (
+                    <option value={item}>{item}</option>
+                  ))}
+                </select>
+                <div className="animation__popup__input__error">error</div>
               </div>
               <div className="animation__popup__input">
                 <label htmlFor="" className="animation__popup__input__label">
@@ -77,6 +87,7 @@ export default function Elevalator() {
                   className="animation__popup__input__field"
                   placeholder="Revenue here"
                 />
+                <div className="animation__popup__input__error"></div>
               </div>
               <div className="animation__popup__input">
                 <label htmlFor="" className="animation__popup__input__label">
@@ -87,6 +98,7 @@ export default function Elevalator() {
                   className="animation__popup__input__field"
                   placeholder="Margin here"
                 />
+                <div className="animation__popup__input__error">error</div>
               </div>
               <div className="animation__popup__input">
                 <label htmlFor="" className="animation__popup__input__label">
@@ -97,6 +109,7 @@ export default function Elevalator() {
                   className="animation__popup__input__field"
                   placeholder="Email here"
                 />
+                <div className="animation__popup__input__error">error</div>
               </div>
               <div className="animation__popup__input">
                 <label htmlFor="" className="animation__popup__input__label">
@@ -107,6 +120,10 @@ export default function Elevalator() {
                   className="animation__popup__input__field"
                   placeholder="Phone here"
                 />
+                <div className="animation__popup__input__error">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quia, veniam!
+                </div>
               </div>
               <button
                 className="animation__popup__button"
@@ -156,6 +173,7 @@ export default function Elevalator() {
                   className="animation__container__center__piece__entry__button"
                   onClick={() => {
                     setPopupOpen(true);
+                    setSelectedIndustry(item);
                   }}
                 />
                 <div className="animation__container__center__piece__entry__text">

@@ -1,6 +1,64 @@
-import { PngMamberbackground, PngTeamcardimg } from "../assets";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { useEffect, useState } from "react";
+
+import { Autoplay } from "swiper";
+import { PngMamberbackground } from "../assets";
 
 export default function MembersSection() {
+  const [slidesPerView, setSlidesPerView] = useState(4);
+  function changeSlidesPerView() {
+    if (window.innerWidth <= 500) {
+      setSlidesPerView(1);
+    } else if (window.innerWidth <= 800) {
+      setSlidesPerView(2);
+    } else if (window.innerWidth <= 1200) {
+      setSlidesPerView(3);
+    } else {
+      setSlidesPerView(4);
+    }
+  }
+  useEffect(() => {
+    changeSlidesPerView();
+    window.addEventListener("resize", changeSlidesPerView);
+  }, []);
+
+  const listOfMembers = [
+    {
+      name: <>Nadeem Butt</>,
+      position: <>Chief Executive Officer</>,
+      info: "An investment banker by profession having more than 30 years of extensive experience in project finance, business development and general management. Mr. Nadeem has been involved in various aspects of business development including; identifying, evaluating and structuring of the financing transaction as an investment banker, couple with a rich industry experience of setting up and management of projects in the electronics, real estate, infrastructure, cement, textile, energy, Mutual Funds and Financial services.. Mr. Nadeem is a fellow Chartered Accountant from the Institute of Chartered Accountants of Pakistan. His other extensive and varied experience includes fund raising through numerous local and international equity/debt listings; project finance syndications; M&A transactions and variety of projects’ development.",
+    },
+    {
+      name: <>Muhammad Arslan</>,
+      position: <>Managing Director</>,
+      info: "As a member chartered certified account and CFA Charter Holder, he leads our corporate- and investment-banking, helping clients across sell-side, buy-side, and market infrastructure to transform and improve performance through the use of technology, analytics, data, and innovation.. He brings more than 15 years of experience in the investment banking industry to his work, helping clients strengthen their businesses. Working in partnership with top executives, he helps leaders shape enterprise strategy, guide cultural transformations, rapidly boost performance, and redesign organizations to sustain the results. With a strong point of view on what is required to capture value, he has directed transformations to help clients pursue new sustainable performance improvement through top-line growth, margin expansion, and capital management. His clients have a track-record of delivering industry leading top and bottom-line growth, significant ROE return on investment expansion, and returns to shareholders at the top of their respective peer groups.",
+    },
+    {
+      name: <>Istafa Baqar Zaidi</>,
+      position: <>Director Transaction Advisory</>,
+      info: "Mr. Istafa Zaidi is leading the investment banking wing of the Company and is specialized in Stock Market Listing, Private Equity, Venture Funding, Joint Venture, and M&A. He is a Professional Accountant and Investment Banker with an Masters from a renowned university from Europe. Working in the investment banking industry, he has a deal-exposure in the various industries and segments including but not limited to Plastics, Paints, Automobiles, Service Tech, Healthcare, Pharmaceuticals, and Organized Retail. Also supports companies in material preparation including Information Memorandum, Projections, Valuations, Teasers etc.",
+    },
+    {
+      name: <>Muhammad Kamran</>,
+      position: <>Director Financial Advisory</>,
+      info: "Mr. Kamran is a CFA Charter Holder and Master’s in Business Economics. A thoroughbred corporate finance professional with 15+ years of experience in corporate finance and investment banking. During his professional career Mr. Kamran was involved in various fund-raising activities ranging from private placement, Private + Listed Sukuk's, right shares issuance deals, merger/acquisition transactions and IPOs. Mr. Kamran’s high corporate finance and investment banking acumen makes him an ace of this field. Some of other core activities in which he holds a strong footstep in preparing complex financial models, project feasibilities, information memorandums. Previously Muhammad Kamran leading investment banking wing of one of the largest Investment Banking House in Pakistan.",
+    },
+    {
+      name: <>Wasif Ali Rana</>,
+      position: <>Director Corporate Affairs</>,
+      info: "Ali is fellow qualified chartered accountant trained from PwC having 15+ years Industry Experience. He specializes in managing the finance, tax and corporate functions and accordingly leads the finance and taxation wing of the Company. Throughout his career he has facilitated many entities on complex finance and related taxation matters. He has excellent liasioning with all the regulators including FBR, SECP, CCP, PSX etc. Ali has been associated with the corporate Financial servicing industry throughout his Career. His other areas of expertise include growth strategy, commercial due diligence, exit support, M&A strategy, synergy capture, and digital business building and transformation. He has been involved in more than 45 commercial and vendor due-diligence processes and more than 30 strategy engagements with financial services and private equity portfolio companies.",
+    },
+    {
+      name: <>Sanie Khan</>,
+      position: <>Director Listings</>,
+      info: "Sanie Khan holds deep knowledge of the financial markets in Pakistan. Based in Karachi, he has over 20 years of hands on management experience in financial technologies and managing operations in the financial sector. He was the General Manager at the Pakistan Stock Exchange (PSX) for 17 years. He along-with senior members of Exchange successfully negotiated Risk Management reforms with Securities and Exchange Commission of Pakistan in 2006. He also served as subject matter expert on the Development, Risk Management and Implementation Committee of Securities and Exchange Commission of Pakistan on various Share-Financing, Derivatives and Debt Market Products. A masters Economics, and masters in business administration majoring in Information Systems, Sanie has also led IT firms before this foray into the financial marketsctor Listings",
+    },
+    {
+      name: <>Salman Ahson</>,
+      position: <>Director Management Consulting</>,
+      info: "With over eighteen years of experience in management & business consulting, tax and audit services, Salman leads the Management Consulting team at Frontline Advisory. He is a member of the Institute of Chartered Accountants of Pakistan and has past working experience with PwC and EY. Salman has experience of providing consulting services to leading names in Pakistan across various sectors including manufacturing, retail, financial institutions, FMCGs, health, education, power, oil & gas, NGOs, donor agencies and the government and public sector. His expertise includes risk, performance improvement and people advisory services.",
+    },
+  ];
   return (
     <section className="members">
       <div
@@ -13,290 +71,53 @@ export default function MembersSection() {
       </div>
       <div className="members__content">
         <div className="members__content__all__card">
-          <div className="members__content__card">
-            <div className="members__content__card__content">
-              <div
-                className="members__content__card__heading"
-                data-aos="fade-up"
-                data-aos-delay="70"
-                data-aos-duration="1500"
-              >
-                Nadeem Butt
-              </div>
-              <div
-                className="members__content__card__info"
-                data-aos="fade-up"
-                data-aos-delay="70"
-                data-aos-duration="1500"
-              >
-                Chief Executive Officer
-              </div>
-              <div
-                className="members__content__card__links"
-                data-aos="fade-up"
-                data-aos-delay="60"
-                data-aos-duration="1300"
-              >
-                <a href="#">
-                  <svg
-                    width="12"
-                    height="20"
-                    viewBox="0 0 12 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M3.61232 19.4634L3.58492 11.0357H0V7.42389H3.58492V5.01599C3.58492 1.76629 5.58233 0.200195 8.45967 0.200195C9.83794 0.200195 11.0225 0.303578 11.3677 0.349786V3.74591L9.37213 3.74682C7.80727 3.74682 7.50428 4.496 7.50428 5.59538V7.42389H11.9497L10.7548 11.0357H7.50427V19.4634H3.61232Z"
-                      fill="#83AC04"
-                    />
-                  </svg>
-                </a>
-
-                <a href="#">
-                  <svg
-                    width="19"
-                    height="18"
-                    viewBox="0 0 19 18"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M13.9346 5.40719C14.5111 5.40719 14.9785 4.93981 14.9785 4.36326C14.9785 3.78672 14.5111 3.31934 13.9346 3.31934C13.358 3.31934 12.8906 3.78672 12.8906 4.36326C12.8906 4.93981 13.358 5.40719 13.9346 5.40719Z"
-                      fill="#83AC04"
-                    />
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M5.07031 8.83261C5.07031 11.2315 7.02115 13.1823 9.42002 13.1823C11.8189 13.1823 13.7697 11.2315 13.7697 8.83261C13.7697 6.43375 11.8189 4.48291 9.42002 4.48291C7.02115 4.48291 5.07031 6.43375 5.07031 8.83261ZM7.24609 8.83208C7.24609 7.63265 8.22151 6.65723 9.42095 6.65723C10.6204 6.65723 11.5958 7.63265 11.5958 8.83208C11.5958 10.0315 10.6204 11.0069 9.42095 11.0069C8.22151 11.0069 7.24609 10.0315 7.24609 8.83208Z"
-                      fill="#83AC04"
-                    />
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M5.07627 17.5311H13.7757C16.0114 17.5311 18.1254 15.4172 18.1254 13.1814V4.48203C18.1254 2.24628 16.0114 0.132324 13.7757 0.132324H5.07627C2.84052 0.132324 0.726562 2.24628 0.726562 4.48203V13.1814C0.726562 15.4172 2.84052 17.5311 5.07627 17.5311ZM2.90234 4.48149C2.90234 3.46475 4.06045 2.30664 5.0772 2.30664H13.7766C14.7933 2.30664 15.9515 3.46475 15.9515 4.48149V13.1809C15.9515 14.1976 14.7933 15.3557 13.7766 15.3557H5.0772C4.04088 15.3557 2.90234 14.2172 2.90234 13.1809V4.48149Z"
-                      fill="#83AC04"
-                    />
-                  </svg>
-                </a>
-
-                <a href="#">
-                  <svg
-                    width="21"
-                    height="16"
-                    viewBox="0 0 21 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M20.0258 1.81178C19.3088 2.17297 18.5919 2.29336 17.7554 2.41376C18.5919 1.93218 19.1893 1.20981 19.4283 0.246649C18.7114 0.728229 17.8749 0.969018 16.9189 1.20981C16.2019 0.487439 15.1264 0.00585938 14.051 0.00585938C12.0195 0.00585938 10.227 1.81178 10.227 3.97889C10.227 4.34007 10.227 4.58086 10.3465 4.82165C7.12011 4.70126 4.13268 3.13613 2.22072 0.728229C1.86223 1.3302 1.74273 1.93218 1.74273 2.77494C1.74273 4.09928 2.45972 5.30323 3.53519 6.0256C2.9377 6.0256 2.34022 5.78481 1.74273 5.54402C1.74273 7.47034 3.0572 9.03547 4.84966 9.39666C4.49117 9.51705 4.13268 9.51705 3.77419 9.51705C3.53519 9.51705 3.2962 9.51705 3.0572 9.39666C3.53519 10.9618 4.96916 12.1657 6.76162 12.1657C5.44715 13.2493 3.77419 13.8513 1.86223 13.8513C1.50374 13.8513 1.26474 13.8513 0.90625 13.8513C2.69871 14.9348 4.73016 15.6572 6.88112 15.6572C14.051 15.6572 17.9944 9.63745 17.9944 4.46047C17.9944 4.34007 17.9944 4.09928 17.9944 3.97889C18.8309 3.37692 19.5478 2.65455 20.0258 1.81178Z"
-                      fill="#83AC04"
-                    />
-                  </svg>
-                </a>
-              </div>
-              <div
-                className="members__content__card__text"
-                data-aos="fade-up"
-                data-aos-delay="80"
-                data-aos-duration="1500"
-              >
-                An investment banker by profession having more than 30 years of
-                extensive experience in project finance, business development
-                and general management. Mr. Nadeem has been involved in various
-                aspects of business development ......
-              </div>
-            </div>
-          </div>{" "}
-          <div className="members__content__card">
-            <div className="members__content__card__content">
-              <div
-                className="members__content__card__heading"
-                data-aos="fade-up"
-                data-aos-delay="70"
-                data-aos-duration="1500"
-              >
-                Muhammad Arslan
-              </div>
-              <div
-                className="members__content__card__info"
-                data-aos="fade-up"
-                data-aos-delay="70"
-                data-aos-duration="1500"
-              >
-                Managing Director
-              </div>
-              <div
-                className="members__content__card__links"
-                data-aos="fade-up"
-                data-aos-delay="60"
-                data-aos-duration="1300"
-              >
-                <a href="#">
-                  <svg
-                    width="12"
-                    height="20"
-                    viewBox="0 0 12 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M3.61232 19.4634L3.58492 11.0357H0V7.42389H3.58492V5.01599C3.58492 1.76629 5.58233 0.200195 8.45967 0.200195C9.83794 0.200195 11.0225 0.303578 11.3677 0.349786V3.74591L9.37213 3.74682C7.80727 3.74682 7.50428 4.496 7.50428 5.59538V7.42389H11.9497L10.7548 11.0357H7.50427V19.4634H3.61232Z"
-                      fill="#83AC04"
-                    />
-                  </svg>
-                </a>
-
-                <a href="#">
-                  <svg
-                    width="19"
-                    height="18"
-                    viewBox="0 0 19 18"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M13.9346 5.40719C14.5111 5.40719 14.9785 4.93981 14.9785 4.36326C14.9785 3.78672 14.5111 3.31934 13.9346 3.31934C13.358 3.31934 12.8906 3.78672 12.8906 4.36326C12.8906 4.93981 13.358 5.40719 13.9346 5.40719Z"
-                      fill="#83AC04"
-                    />
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M5.07031 8.83261C5.07031 11.2315 7.02115 13.1823 9.42002 13.1823C11.8189 13.1823 13.7697 11.2315 13.7697 8.83261C13.7697 6.43375 11.8189 4.48291 9.42002 4.48291C7.02115 4.48291 5.07031 6.43375 5.07031 8.83261ZM7.24609 8.83208C7.24609 7.63265 8.22151 6.65723 9.42095 6.65723C10.6204 6.65723 11.5958 7.63265 11.5958 8.83208C11.5958 10.0315 10.6204 11.0069 9.42095 11.0069C8.22151 11.0069 7.24609 10.0315 7.24609 8.83208Z"
-                      fill="#83AC04"
-                    />
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M5.07627 17.5311H13.7757C16.0114 17.5311 18.1254 15.4172 18.1254 13.1814V4.48203C18.1254 2.24628 16.0114 0.132324 13.7757 0.132324H5.07627C2.84052 0.132324 0.726562 2.24628 0.726562 4.48203V13.1814C0.726562 15.4172 2.84052 17.5311 5.07627 17.5311ZM2.90234 4.48149C2.90234 3.46475 4.06045 2.30664 5.0772 2.30664H13.7766C14.7933 2.30664 15.9515 3.46475 15.9515 4.48149V13.1809C15.9515 14.1976 14.7933 15.3557 13.7766 15.3557H5.0772C4.04088 15.3557 2.90234 14.2172 2.90234 13.1809V4.48149Z"
-                      fill="#83AC04"
-                    />
-                  </svg>
-                </a>
-
-                <a href="#">
-                  <svg
-                    width="21"
-                    height="16"
-                    viewBox="0 0 21 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M20.0258 1.81178C19.3088 2.17297 18.5919 2.29336 17.7554 2.41376C18.5919 1.93218 19.1893 1.20981 19.4283 0.246649C18.7114 0.728229 17.8749 0.969018 16.9189 1.20981C16.2019 0.487439 15.1264 0.00585938 14.051 0.00585938C12.0195 0.00585938 10.227 1.81178 10.227 3.97889C10.227 4.34007 10.227 4.58086 10.3465 4.82165C7.12011 4.70126 4.13268 3.13613 2.22072 0.728229C1.86223 1.3302 1.74273 1.93218 1.74273 2.77494C1.74273 4.09928 2.45972 5.30323 3.53519 6.0256C2.9377 6.0256 2.34022 5.78481 1.74273 5.54402C1.74273 7.47034 3.0572 9.03547 4.84966 9.39666C4.49117 9.51705 4.13268 9.51705 3.77419 9.51705C3.53519 9.51705 3.2962 9.51705 3.0572 9.39666C3.53519 10.9618 4.96916 12.1657 6.76162 12.1657C5.44715 13.2493 3.77419 13.8513 1.86223 13.8513C1.50374 13.8513 1.26474 13.8513 0.90625 13.8513C2.69871 14.9348 4.73016 15.6572 6.88112 15.6572C14.051 15.6572 17.9944 9.63745 17.9944 4.46047C17.9944 4.34007 17.9944 4.09928 17.9944 3.97889C18.8309 3.37692 19.5478 2.65455 20.0258 1.81178Z"
-                      fill="#83AC04"
-                    />
-                  </svg>
-                </a>
-              </div>
-              <div
-                className="members__content__card__text"
-                data-aos="fade-up"
-                data-aos-delay="80"
-                data-aos-duration="1500"
-              >
-                As a member chartered certified account and CFA Charter Holder,
-                he leads our corporate- and investment-banking, helping clients
-                across sell-side, buy-side, and market infrastructure to
-                transform and improve performance through the use of
-                technology.....
-              </div>
-            </div>
-          </div>
-          <div className="members__content__card">
-            <div className="members__content__card__content">
-              <div
-                className="members__content__card__heading"
-                data-aos="fade-up"
-                data-aos-delay="70"
-                data-aos-duration="1500"
-              >
-                Istafa Baqar Zaidi
-              </div>
-              <div
-                className="members__content__card__info"
-                data-aos="fade-up"
-                data-aos-delay="70"
-                data-aos-duration="1500"
-              >
-                Director Transaction Advisory
-              </div>
-              <div
-                className="members__content__card__links"
-                data-aos="fade-up"
-                data-aos-delay="60"
-                data-aos-duration="1300"
-              >
-                <a href="#">
-                  <svg
-                    width="12"
-                    height="20"
-                    viewBox="0 0 12 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M3.61232 19.4634L3.58492 11.0357H0V7.42389H3.58492V5.01599C3.58492 1.76629 5.58233 0.200195 8.45967 0.200195C9.83794 0.200195 11.0225 0.303578 11.3677 0.349786V3.74591L9.37213 3.74682C7.80727 3.74682 7.50428 4.496 7.50428 5.59538V7.42389H11.9497L10.7548 11.0357H7.50427V19.4634H3.61232Z"
-                      fill="#83AC04"
-                    />
-                  </svg>
-                </a>
-
-                <a href="#">
-                  <svg
-                    width="19"
-                    height="18"
-                    viewBox="0 0 19 18"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M13.9346 5.40719C14.5111 5.40719 14.9785 4.93981 14.9785 4.36326C14.9785 3.78672 14.5111 3.31934 13.9346 3.31934C13.358 3.31934 12.8906 3.78672 12.8906 4.36326C12.8906 4.93981 13.358 5.40719 13.9346 5.40719Z"
-                      fill="#83AC04"
-                    />
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M5.07031 8.83261C5.07031 11.2315 7.02115 13.1823 9.42002 13.1823C11.8189 13.1823 13.7697 11.2315 13.7697 8.83261C13.7697 6.43375 11.8189 4.48291 9.42002 4.48291C7.02115 4.48291 5.07031 6.43375 5.07031 8.83261ZM7.24609 8.83208C7.24609 7.63265 8.22151 6.65723 9.42095 6.65723C10.6204 6.65723 11.5958 7.63265 11.5958 8.83208C11.5958 10.0315 10.6204 11.0069 9.42095 11.0069C8.22151 11.0069 7.24609 10.0315 7.24609 8.83208Z"
-                      fill="#83AC04"
-                    />
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M5.07627 17.5311H13.7757C16.0114 17.5311 18.1254 15.4172 18.1254 13.1814V4.48203C18.1254 2.24628 16.0114 0.132324 13.7757 0.132324H5.07627C2.84052 0.132324 0.726562 2.24628 0.726562 4.48203V13.1814C0.726562 15.4172 2.84052 17.5311 5.07627 17.5311ZM2.90234 4.48149C2.90234 3.46475 4.06045 2.30664 5.0772 2.30664H13.7766C14.7933 2.30664 15.9515 3.46475 15.9515 4.48149V13.1809C15.9515 14.1976 14.7933 15.3557 13.7766 15.3557H5.0772C4.04088 15.3557 2.90234 14.2172 2.90234 13.1809V4.48149Z"
-                      fill="#83AC04"
-                    />
-                  </svg>
-                </a>
-
-                <a href="#">
-                  <svg
-                    width="21"
-                    height="16"
-                    viewBox="0 0 21 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M20.0258 1.81178C19.3088 2.17297 18.5919 2.29336 17.7554 2.41376C18.5919 1.93218 19.1893 1.20981 19.4283 0.246649C18.7114 0.728229 17.8749 0.969018 16.9189 1.20981C16.2019 0.487439 15.1264 0.00585938 14.051 0.00585938C12.0195 0.00585938 10.227 1.81178 10.227 3.97889C10.227 4.34007 10.227 4.58086 10.3465 4.82165C7.12011 4.70126 4.13268 3.13613 2.22072 0.728229C1.86223 1.3302 1.74273 1.93218 1.74273 2.77494C1.74273 4.09928 2.45972 5.30323 3.53519 6.0256C2.9377 6.0256 2.34022 5.78481 1.74273 5.54402C1.74273 7.47034 3.0572 9.03547 4.84966 9.39666C4.49117 9.51705 4.13268 9.51705 3.77419 9.51705C3.53519 9.51705 3.2962 9.51705 3.0572 9.39666C3.53519 10.9618 4.96916 12.1657 6.76162 12.1657C5.44715 13.2493 3.77419 13.8513 1.86223 13.8513C1.50374 13.8513 1.26474 13.8513 0.90625 13.8513C2.69871 14.9348 4.73016 15.6572 6.88112 15.6572C14.051 15.6572 17.9944 9.63745 17.9944 4.46047C17.9944 4.34007 17.9944 4.09928 17.9944 3.97889C18.8309 3.37692 19.5478 2.65455 20.0258 1.81178Z"
-                      fill="#83AC04"
-                    />
-                  </svg>
-                </a>
-              </div>
-              <div
-                className="members__content__card__text"
-                data-aos="fade-up"
-                data-aos-delay="80"
-                data-aos-duration="1500"
-              >
-                Mr. Istafa Zaidi is leading the investment banking wing of the
-                Company and is specialized in Stock Market Listing, Private
-                Equity, Venture Funding, Joint Venture, and M&A. He is a
-                Professional Accountant and Investment Banker with an Masters
-                from a .....
-              </div>
-            </div>
-          </div>
+          <Swiper
+            slidesPerView={slidesPerView}
+            modules={[Autoplay]}
+            speed={2000}
+            spaceBetween={30}
+            autoplay={{
+              delay: 2000,
+              pauseOnMouseEnter: false,
+              disableOnInteraction: false,
+            }}
+            loop={true}
+          >
+            {listOfMembers.map((member, index) => (
+              <SwiperSlide key={index}>
+                <button title={member.info} className="members__content__card">
+                  <div className="members__content__card__content">
+                    <div
+                      className="members__content__card__heading"
+                      data-aos="fade-up"
+                      data-aos-delay="70"
+                      data-aos-duration="1500"
+                    >
+                      {member.name}
+                    </div>
+                    <div
+                      className="members__content__card__info"
+                      data-aos="fade-up"
+                      data-aos-delay="70"
+                      data-aos-duration="1500"
+                    >
+                      {member.position}
+                    </div>
+                    <div
+                      className="members__content__card__text"
+                      data-aos="fade-up"
+                      data-aos-delay="80"
+                      data-aos-duration="1500"
+                    >
+                      {member.info.length > 200
+                        ? member.info.slice(0, 200) + "..."
+                        : member.info}
+                    </div>
+                  </div>
+                </button>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
       <div className="members__background__img">
