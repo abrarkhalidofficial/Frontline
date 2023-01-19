@@ -91,19 +91,6 @@ export default function Header() {
                     onClick={() => {
                       setTimeout(() => {
                         document
-                          .getElementById("about")
-                          .scrollIntoView({ behavior: "smooth" });
-                      }, 1000);
-                    }}
-                    className="header__entry"
-                  >
-                    About
-                  </Link>
-                  <Link
-                    to="/"
-                    onClick={() => {
-                      setTimeout(() => {
-                        document
                           .getElementById("Services")
                           .scrollIntoView({ behavior: "smooth" });
                       }, 1000);
@@ -137,8 +124,20 @@ export default function Header() {
                     className="header__entry"
                   >
                     Team
+                  </Link>{" "}
+                  <Link
+                    to="contact"
+                    onClick={() => {
+                      setTimeout(() => {
+                        document
+                          .getElementById("about")
+                          .scrollIntoView({ behavior: "smooth" });
+                      }, 1000);
+                    }}
+                    className="header__entry"
+                  >
+                    Contact Us
                   </Link>
-
                   <button
                     onClick={() => {
                       naivgate("/elevalator");
