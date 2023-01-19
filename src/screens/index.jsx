@@ -1,5 +1,3 @@
-import "swiper/scss";
-import AOS from "aos";
 import {
   Homesection,
   AboutUsSection,
@@ -10,10 +8,8 @@ import {
   TransactionSection,
   ClientsSection,
 } from "components";
-import React from "react";
 
 export default function index() {
-  AOS.init();
   return (
     <>
       <Homesection />

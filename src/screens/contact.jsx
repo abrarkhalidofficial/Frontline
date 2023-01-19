@@ -1,4 +1,3 @@
-import React from "react";
 import { PngContactbackground, SvgContactlogo } from "../assets";
 
 export default function () {
