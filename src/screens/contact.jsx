@@ -98,6 +98,28 @@ export default function () {
           <img src={PngContactbackground} alt="PngContactbackground" />
         </div>
       </section>
+      <section className="contactform">
+        <div className="contactform__content">
+          <div className="contactform__content__left">
+            <div className="contactform__content__left__heading">
+              Get In Touch <span>with Us</span>
+            </div>
+            <div className="contactform__content__left__info">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum
+            </div>
+          </div>
+          <div className="contactform__content__right">
+            <div className="contactform__content__right__input">
+              {" "}
+              <input type="Name" placeholder="Name" />
+              <input type="email" name="email" id="email" placeholder="Email" />
+              <input type="text" placeholder="Subject" />
+              <button>Submit</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

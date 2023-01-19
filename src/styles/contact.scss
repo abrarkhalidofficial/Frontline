@@ -5,11 +5,11 @@
   text-align: center;
   max-width: 1920px;
   margin: 0 auto;
-
   padding-top: 2em;
-
+  overflow: hidden;
   color: white;
   position: relative;
+  font-family: "Montserrat", sans-serif;
 }
 .contact__logo {
   margin-bottom: 1em;
@@ -23,15 +23,14 @@
   z-index: -1;
 }
 .contactus__background img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   padding-bottom: 1em;
+  overflow: hidden;
 }
 .contact__lorem {
   margin: 1em;
   width: 70%;
-  font-family: "Prata", serif;
+
   font-size: 17px;
   text-align: center;
 }
@@ -77,7 +76,7 @@
 }
 .contact__bottom__info {
   font-size: 14px;
-  font-family: "Prata", serif;
+
   margin: 10px;
 }
 .contact__social {
@@ -87,11 +86,166 @@
   text-align: center;
 }
 .contactform {
+  font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+
   flex-direction: column;
   width: 100%;
   margin: 0 auto;
+  max-width: 800px;
+  background-color: #efefef;
+  border-radius: 20px;
+  padding: 1em 5em 4em 5em;
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+.contactform__content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2em;
+  width: 100%;
+}
+.contactform__content__left {
+  width: 50%;
+}
+.contactform__content__right {
+  width: 50%;
+}
+.contactform__content__right__input {
+  display: flex;
+  flex-direction: column;
+}
+.contactform__content__right__input input {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 2px solid #acacac;
+  border-radius: 20px;
+  outline: none;
+  color: #000;
+  background-color: transparent;
+  cursor: pointer;
+  padding-left: 1.5em;
+}
+
+.contactform__content__right__input button {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 2px solid #779d02;
+  border-radius: 20px;
+  outline: none;
+  color: #ffff;
+  max-width: 150px;
+  background: linear-gradient(270deg, #628200 21.93%, #8cb805 80.65%);
+  cursor: pointer;
+}
+.contactform__content__right__input button:hover {
+  background: linear-gradient(270deg, #779d02 21.93%, #a0c805 80.65%);
+}
+
+.contactform__content__right__input input:focus {
+  border: 2px solid #779d02;
+}
+.contactform__content__left__heading {
+  font-size: 35px;
+  font-weight: bold;
+  max-width: 250px;
+  color: #779d02;
+  font-family: "Montserrat", sans-serif;
+}
+.contactform__content__left__heading span {
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+}
+.contactform__content__left__info {
+  padding-top: 1em;
+  width: 90%;
+  font-family: "Montserrat", sans-serif;
+}
+::placeholder {
+  color: #000;
+  font-weight: 500;
+}
+@media (max-width: 1100px) {
+  .contact__lorem {
+    width: 90%;
+  }
+  .all__contact__bottom__con {
+    padding: 2em;
+    border-right: 2px solid white;
+    width: 37%;
+  }
+}
+@media (max-width: 700px) {
+  .contact__bottom {
+    flex-direction: column;
+  }
+  .all__contact__bottom__con {
+    border: none;
+  }
+  .all__contact__bottom__con {
+    padding: 0em;
+  }
+  .contact__lorem {
+    font-size: 17px;
+  }
+  .all__contact__bottom__con {
+    width: 100%;
+  }
+  .contact__bottom__info {
+    font-size: 20px;
+  }
+  .contact__bottom__heading {
+    font-size: 28px;
+  }
+  .contactform__content {
+    flex-direction: column;
+  }
+  .contactform__content__left {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contactform__content__left__heading {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  .contactform__content__left__info {
+    width: 100%;
+  }
+  .contactform__content__right {
+    padding-top: 2em;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contactform {
+    width: 90%;
+    padding: 1em 1em 4em 1em;
+  }
+  .contact__logo img {
+    width: 250px;
+  }
+  .contactform {
+    margin-top: 2em;
+  }
+  .contact {
+    background: #0e0e0f;
+    overflow: hidden;
+  }
+}
+@media (max-width: 450px) {
+  .contact__bottom__heading {
+    font-size: 24px;
+  }
+  .contact__bottom__info {
+    font-size: 16px;
+  }
+  .contact__social__link {
+    padding: 1.5em;
+  }
 }
