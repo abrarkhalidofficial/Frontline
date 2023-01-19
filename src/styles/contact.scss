@@ -121,7 +121,7 @@
   height: 40px;
   margin: 10px 0;
   padding: 0 10px;
-  border: 2px solid #acacac;
+  border: 1px solid #acacac;
   border-radius: 20px;
   outline: none;
   color: #000;
@@ -135,7 +135,7 @@
   height: 40px;
   margin: 10px 0;
   padding: 0 10px;
-  border: 2px solid #779d02;
+  border: 1px solid #779d02;
   border-radius: 20px;
   outline: none;
   color: #ffff;
@@ -147,8 +147,11 @@
   background: linear-gradient(270deg, #779d02 21.93%, #a0c805 80.65%);
 }
 
+.contactform__content__right__input input:hover {
+  border: 1px solid #779d02;
+}
 .contactform__content__right__input input:focus {
-  border: 2px solid #779d02;
+  border: 1px solid #779d02;
 }
 .contactform__content__left__heading {
   font-size: 35px;
@@ -168,7 +171,6 @@
 }
 ::placeholder {
   color: #000;
-  font-weight: 500;
 }
 @media (max-width: 1100px) {
   .contact__lorem {
