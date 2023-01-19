@@ -42,9 +42,10 @@ export default function TransactionSection() {
           spaceBetween={50}
           slidesPerView={slidesPerView}
           modules={[Autoplay]}
+          speed={2000}
           autoplay={{
-            delay: 1000,
-            pauseOnMouseEnter: true,
+            delay: 2000,
+            pauseOnMouseEnter: false,
             disableOnInteraction: false,
           }}
           loop={true}

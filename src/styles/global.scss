@@ -345,6 +345,7 @@ body::-webkit-scrollbar-track {
   mix-blend-mode: luminosity;
   border-radius: 15px;
 }
+
 .industries__content__left__content__img {
   display: flex;
 }
@@ -595,6 +596,7 @@ body::-webkit-scrollbar-track {
   padding-top: 2em;
   padding-bottom: 3em;
 }
+
 .footer {
   background: linear-gradient(103.9deg, #050505 0.25%, #1e1e1e 100%);
   width: 100%;
@@ -854,6 +856,12 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 500px) {
+  .client__card__content img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
   .aboutus__content__all__card {
     max-width: 370px;
     justify-content: center;

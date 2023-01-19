@@ -54,6 +54,7 @@ export default function ClientsSection() {
           spaceBetween={50}
           slidesPerView={slidesPerView}
           modules={[Autoplay]}
+          speed={2000}
           autoplay={{
             delay: 1000,
             pauseOnMouseEnter: true,
