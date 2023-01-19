@@ -728,6 +728,9 @@ body::-webkit-scrollbar-track {
     max-width: 400px;
     width: 300px;
   }
+  .industries__content__left__content__img {
+    justify-content: center;
+  }
 
   .industries__content {
     flex-direction: column-reverse;
@@ -791,6 +794,14 @@ body::-webkit-scrollbar-track {
     top: 78%;
   }
 }
+@media (max-width: 800px) {
+  .teamcard__content__card {
+    width: 90%;
+  }
+  .teamcard__content__heading {
+    width: 90%;
+  }
+}
 @media (max-width: 700px) {
   .aboutus__content__all__card {
     max-width: 500px;
@@ -799,6 +810,7 @@ body::-webkit-scrollbar-track {
   .aboutus__content__text {
     max-width: 500px;
     font-size: 15px;
+    width: 90%;
   }
   .services__content__right__content__heading {
     font-size: 15px;
