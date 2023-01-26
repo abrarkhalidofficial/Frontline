@@ -15,7 +15,6 @@ export default function () {
             and scrambled it to make a type specimen book.
           </div>
         </div>
-
         <div className="contact__bottom">
           <div className="all__contact__bottom__con">
             <div className="contact__bottom__svg">

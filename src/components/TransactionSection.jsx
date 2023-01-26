@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useState } from "react";
+
 import { Autoplay } from "swiper";
 
 export default function TransactionSection() {

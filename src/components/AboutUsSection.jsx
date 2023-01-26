@@ -57,7 +57,6 @@ export default function AboutUsSection() {
           </div>
           <div className="aboutus__content__card">
             <img src={PngAboutusimg1} alt="PngAboutusimg" />
-
             <div
               className="aboutus__content__card__heading"
               data-aos="fade-up"

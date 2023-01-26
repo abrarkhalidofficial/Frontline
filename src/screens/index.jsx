@@ -1,12 +1,12 @@
 import {
-  Homesection,
   AboutUsSection,
-  ServicesSection,
-  IndustriesSection,
-  TeamsSection,
-  MembersSection,
-  TransactionSection,
   ClientsSection,
+  Homesection,
+  IndustriesSection,
+  MembersSection,
+  ServicesSection,
+  TeamsSection,
+  TransactionSection,
 } from "components";
 
 export default function index() {
