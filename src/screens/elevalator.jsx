@@ -1,4 +1,5 @@
 import ClickAwayListener from "react-click-away-listener";
+import axios from "axios";
 import { useState } from "react";
 
 export default function Elevalator() {
@@ -35,12 +36,29 @@ export default function Elevalator() {
               setPopupOpen(false);
             }}
           >
-            <div className="animation__popup">
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                setPopupOpen(false);
+                axios.post(
+                  "https://frontline-api-production.up.railway.app/api/industry",
+                  {
+                    industry: e.target.industry.value,
+                    revenue: e.target.revenue.value,
+                    margin: e.target.margin.value,
+                    email: e.target.email.value,
+                    phone: e.target.phone.value,
+                  }
+                );
+              }}
+              className="animation__popup"
+            >
               <button
                 className="animation__popup__close"
                 onClick={() => {
                   setPopupOpen(false);
                 }}
+                type="button"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -68,6 +86,7 @@ export default function Elevalator() {
                   className="animation__popup__input__field"
                   placeholder="Industry name"
                   value={selectedIndustry}
+                  name="industry"
                   onChange={(e) => {
                     setSelectedIndustry(e.target.value);
                   }}
@@ -86,6 +105,7 @@ export default function Elevalator() {
                   type="text"
                   className="animation__popup__input__field"
                   placeholder="Revenue here"
+                  name="revenue"
                 />
                 <div className="animation__popup__input__error"></div>
               </div>
@@ -97,6 +117,7 @@ export default function Elevalator() {
                   type="text"
                   className="animation__popup__input__field"
                   placeholder="Margin here"
+                  name="margin"
                 />
                 <div className="animation__popup__input__error"></div>
               </div>
@@ -108,6 +129,7 @@ export default function Elevalator() {
                   type="text"
                   className="animation__popup__input__field"
                   placeholder="Email here"
+                  name="email"
                 />
                 <div className="animation__popup__input__error"></div>
               </div>
@@ -119,18 +141,14 @@ export default function Elevalator() {
                   type="text"
                   className="animation__popup__input__field"
                   placeholder="Phone here"
+                  name="phone"
                 />
                 <div className="animation__popup__input__error"></div>
               </div>
-              <button
-                className="animation__popup__button"
-                onClick={() => {
-                  setPopupOpen(false);
-                }}
-              >
+              <button className="animation__popup__button" type="submit">
                 Send
               </button>
-            </div>
+            </form>
           </ClickAwayListener>
         </div>
       )}

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "axios": "^1.2.5",
     "clsx": "^1.2.1",
     "react": "^18.2.0",
     "react-click-away-listener": "^2.2.2",
@@ -30,6 +31,6 @@
     "vite-plugin-compression": "^0.5.1",
     "vite-plugin-hot-export": "^0.5.9",
     "vite-plugin-imagemin": "^0.6.1",
-    "vite-plugin-webfont-dl": "^3.4.3"
+    "vite-plugin-webfont-dl": "^3.5.0"
   }
 }
