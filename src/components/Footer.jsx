@@ -65,7 +65,7 @@ export default function Footer() {
                   </svg>
                 </div>
                 <div className="footer__content__right__links__item__info">
-                  0300-1234567
+                  042-37192244
                 </div>
               </a>
               <a
