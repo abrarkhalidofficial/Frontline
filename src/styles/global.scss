@@ -69,6 +69,8 @@ body::-webkit-scrollbar-track {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 90%;
+  max-width: 1100px;
 }
 .homesection__content__button {
   position: absolute;
@@ -873,6 +875,9 @@ body::-webkit-scrollbar-track {
     top: 50%;
     width: 90%;
     font-size: 14px;
+  }
+  .homesection__content__background__image img {
+    width: 1250px;
   }
   .homesection__content__button {
     top: 88%;
