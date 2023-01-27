@@ -76,7 +76,7 @@ export default function Elevalator() {
                     <option value={item}>{item}</option>
                   ))}
                 </select>
-                <div className="animation__popup__input__error">error</div>
+                <div className="animation__popup__input__error"></div>
               </div>
               <div className="animation__popup__input">
                 <label htmlFor="" className="animation__popup__input__label">
@@ -98,7 +98,7 @@ export default function Elevalator() {
                   className="animation__popup__input__field"
                   placeholder="Margin here"
                 />
-                <div className="animation__popup__input__error">error</div>
+                <div className="animation__popup__input__error"></div>
               </div>
               <div className="animation__popup__input">
                 <label htmlFor="" className="animation__popup__input__label">
@@ -109,7 +109,7 @@ export default function Elevalator() {
                   className="animation__popup__input__field"
                   placeholder="Email here"
                 />
-                <div className="animation__popup__input__error">error</div>
+                <div className="animation__popup__input__error"></div>
               </div>
               <div className="animation__popup__input">
                 <label htmlFor="" className="animation__popup__input__label">
@@ -120,10 +120,7 @@ export default function Elevalator() {
                   className="animation__popup__input__field"
                   placeholder="Phone here"
                 />
-                <div className="animation__popup__input__error">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Quia, veniam!
-                </div>
+                <div className="animation__popup__input__error"></div>
               </div>
               <button
                 className="animation__popup__button"
