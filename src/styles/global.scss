@@ -347,7 +347,9 @@ body::-webkit-scrollbar-track {
   mix-blend-mode: luminosity;
   border-radius: 15px;
 }
-
+.headingspan {
+  background-color: #fff;
+}
 .industries__content__left__content__img {
   display: flex;
 }
@@ -539,7 +541,7 @@ body::-webkit-scrollbar-track {
 }
 .transaction__content {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1920px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -590,7 +592,7 @@ body::-webkit-scrollbar-track {
 }
 .clients__content {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1900px;
   margin: 0 auto;
   display: flex;
   justify-content: center;

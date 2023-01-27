@@ -12,8 +12,9 @@ export default function TeamsSection() {
             data-aos-duration="1000"
           >
             One of the most active advisory firm in the region with total deal
-            closure experience in excess of Aggregate deal value of over USD
-            1,000 Million instead of USD 500 Million.
+            closure experience in excess of Aggregate deal value of over{" "}
+            <span className="headingspan">USD 1,000</span> Million instead of{" "}
+            <span className="headingspan">USD 500 Million.</span>
           </div>
           <div className="teamcard__content__all__card">
             <div
