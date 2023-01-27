@@ -34,7 +34,7 @@ export default function Homesection() {
     >
       <Swiper
         slidesPerView={slidesPerView}
-        modules={[Autoplay]}
+        // modules={[Autoplay]}
         speed={2000}
         autoplay={{
           delay: 2000,
@@ -72,10 +72,19 @@ export default function Homesection() {
               </svg>
             </div>
             <div className="homesection__content__info">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
-              corrupti impedit eum cupiditate aliquid ullam maxime assumenda sed
-              consequatur distinctio error dolorem tempora libero similique non
-              nam, molestias nulla maiores!
+              Frontline Advisory is a reputable and independent investment
+              banking company that values integrity in all aspects of its
+              business. The company is dedicated to providing innovative,
+              strategic, and financial advice to a diverse client base in an
+              ethical and honest manner. The company assists clients in
+              achieving their strategic goals by offering comprehensive and
+              integrated financial advisory services across all major industry
+              sectors. With expert capabilities in areas such as stock market
+              listing, real estate advisory, bank financing, M&A, and capital
+              structure advisory, Frontline Advisory supports clients through
+              all phases of the business cycle with transparency and integrity.
+              The company's website reflects this commitment to integrity, and
+              is a testament to their professional and trustworthy reputation.
             </div>
             <button
               className="homesection__content__button"
@@ -115,10 +124,19 @@ export default function Homesection() {
               </svg>
             </div>
             <div className="homesection__content__info">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
-              corrupti impedit eum cupiditate aliquid ullam maxime assumenda sed
-              consequatur distinctio error dolorem tempora libero similique non
-              nam, molestias nulla maiores!
+              Frontline Advisory is a leading independent investment banking
+              company that boasts a high level of competence in the industry.
+              The company offers innovative, strategic, and financial advice to
+              a diverse client base, and assists them in achieving their
+              strategic goals through comprehensive and integrated financial
+              advisory services across all major industry sectors. The company's
+              dynamic advisory practice is supported by expert capabilities in
+              areas such as stock market listing, real estate advisory, bank
+              financing, M&A, and capital structure advisory. This enables them
+              to support clients through all phases of the business cycle. The
+              company's website showcases their competence, expert capabilities
+              and experience in the industry and reflects the company's
+              commitment to delivering the highest level of services to clients
             </div>
             <button
               className="homesection__content__button"
@@ -158,10 +176,20 @@ export default function Homesection() {
               </svg>
             </div>
             <div className="homesection__content__info">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
-              corrupti impedit eum cupiditate aliquid ullam maxime assumenda sed
-              consequatur distinctio error dolorem tempora libero similique non
-              nam, molestias nulla maiores!
+              Frontline Advisory is a reputable and independent investment
+              banking company that is known for its professionalism in the
+              industry. The company provides innovative, strategic and financial
+              advice to a diverse client base, and assists clients in achieving
+              their strategic goals by offering comprehensive and integrated
+              financial advisory services across all major industry sectors. The
+              company's dynamic advisory practice is supported by expert
+              capabilities in areas such as stock market listing, real estate
+              advisory, bank financing, M&A, and capital structure advisory,
+              which enables them to support clients through all phases of the
+              business cycle. The company's website exudes professionalism and
+              showcases their expertise and experience in the industry. The
+              website reflects the company's commitment to delivering
+              high-quality and professional services to their clients.
             </div>
             <button
               className="homesection__content__button"

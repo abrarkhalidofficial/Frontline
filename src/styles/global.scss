@@ -57,7 +57,7 @@ body::-webkit-scrollbar-track {
 }
 .homesection__content__heading {
   position: absolute;
-  top: 45%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -65,7 +65,7 @@ body::-webkit-scrollbar-track {
 .homesection__content__info {
   color: #fff;
   position: absolute;
-  top: 62%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -685,6 +685,11 @@ body::-webkit-scrollbar-track {
     max-width: 900px;
   }
 }
+@media (max-width: 1100px) {
+  .homesection__content__heading svg {
+    max-width: 500px !important ;
+  }
+}
 @media (max-width: 1050px) {
   .aboutus__content__all__card {
     max-width: 700px;
@@ -796,7 +801,9 @@ body::-webkit-scrollbar-track {
     max-width: 600px;
   }
   .homesection__content__info {
-    top: 65%;
+    top: 55%;
+    width: 100%;
+    max-width: 700px;
   }
   .homesection__content__button {
     top: 78%;
@@ -836,7 +843,7 @@ body::-webkit-scrollbar-track {
     width: 300px;
   }
   .homesection__content__background__image img {
-    width: 1000px;
+    width: 1600px;
   }
   .aboutus__content {
     padding: 50px 0px;
@@ -845,14 +852,14 @@ body::-webkit-scrollbar-track {
     padding-top: 1em;
   }
   .homesection__content__heading {
-    top: 28%;
+    top: 15%;
   }
   .homesection__content__info {
-    top: 57%;
+    top: 50%;
     width: 90%;
   }
   .homesection__content__button {
-    top: 85%;
+    top: 92%;
   }
 }
 @media (max-width: 500px) {
@@ -861,6 +868,14 @@ body::-webkit-scrollbar-track {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+  }
+  .homesection__content__info {
+    top: 50%;
+    width: 90%;
+    font-size: 14px;
+  }
+  .homesection__content__button {
+    top: 88%;
   }
   .aboutus__content__all__card {
     max-width: 370px;
