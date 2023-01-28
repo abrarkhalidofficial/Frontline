@@ -34,7 +34,7 @@ export default function Homesection() {
     >
       <Swiper
         slidesPerView={slidesPerView}
-        // modules={[Autoplay]}
+        modules={[Autoplay]}
         speed={2000}
         autoplay={{
           delay: 2000,

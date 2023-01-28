@@ -950,6 +950,15 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 400px) {
+  .homesection__content__heading {
+    top: 8%;
+  }
+  .homesection__content__button {
+    top: 94%;
+  }
+  .homesection__content__background__image img {
+    width: 1350px;
+  }
   .services__content__left__content__heading {
     font-size: 12px;
   }
