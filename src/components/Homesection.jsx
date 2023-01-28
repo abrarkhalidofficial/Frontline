@@ -72,19 +72,17 @@ export default function Homesection() {
               </svg>
             </div>
             <div className="homesection__content__info">
-              Frontline Advisory is a reputable and independent investment
-              banking company that values integrity in all aspects of its
-              business. The company is dedicated to providing innovative,
-              strategic, and financial advice to a diverse client base in an
-              ethical and honest manner. The company assists clients in
-              achieving their strategic goals by offering comprehensive and
-              integrated financial advisory services across all major industry
-              sectors. With expert capabilities in areas such as stock market
-              listing, real estate advisory, bank financing, M&A, and capital
-              structure advisory, Frontline Advisory supports clients through
-              all phases of the business cycle with transparency and integrity.
-              The company's website reflects this commitment to integrity, and
-              is a testament to their professional and trustworthy reputation.
+              Frontline Advisory is a reputable, independent investment bank
+              known for its integrity in the industry. The company provides
+              innovative, strategic, and financial advice to a diverse client
+              base in an ethical and honest way. They assist clients in
+              achieving their goals through comprehensive and integrated
+              financial services across all sectors. With expertise in stock
+              market listing, real estate, bank financing, M&A, and capital
+              structure, the company supports clients throughout the business
+              cycle with transparency and integrity. The company's approach
+              reflects this commitment to integrity and showcases their
+              professional reputation.
             </div>
             <button
               className="homesection__content__button"
@@ -124,19 +122,16 @@ export default function Homesection() {
               </svg>
             </div>
             <div className="homesection__content__info">
-              Frontline Advisory is a leading independent investment banking
-              company that boasts a high level of competence in the industry.
-              The company offers innovative, strategic, and financial advice to
-              a diverse client base, and assists them in achieving their
-              strategic goals through comprehensive and integrated financial
-              advisory services across all major industry sectors. The company's
-              dynamic advisory practice is supported by expert capabilities in
-              areas such as stock market listing, real estate advisory, bank
-              financing, M&A, and capital structure advisory. This enables them
-              to support clients through all phases of the business cycle. The
-              company's website showcases their competence, expert capabilities
-              and experience in the industry and reflects the company's
-              commitment to delivering the highest level of services to clients
+              Frontline Advisory is a reputable independent investment bank
+              known for its competence in the industry. They offer innovative,
+              strategic, and financial advice to a diverse client base, helping
+              them achieve goals through comprehensive and integrated financial
+              services across all sectors. The company's dynamic practice is
+              supported by expertise in stock market listing, real estate, bank
+              financing, M&A, and capital structure. This enables them to
+              support clients throughout the business cycle. The company's
+              approach showcases their expertise, reflecting their commitment to
+              high-quality service.
             </div>
             <button
               className="homesection__content__button"
@@ -176,20 +171,15 @@ export default function Homesection() {
               </svg>
             </div>
             <div className="homesection__content__info">
-              Frontline Advisory is a reputable and independent investment
-              banking company that is known for its professionalism in the
-              industry. The company provides innovative, strategic and financial
-              advice to a diverse client base, and assists clients in achieving
-              their strategic goals by offering comprehensive and integrated
-              financial advisory services across all major industry sectors. The
-              company's dynamic advisory practice is supported by expert
-              capabilities in areas such as stock market listing, real estate
-              advisory, bank financing, M&A, and capital structure advisory,
-              which enables them to support clients through all phases of the
-              business cycle. The company's website exudes professionalism and
-              showcases their expertise and experience in the industry. The
-              website reflects the company's commitment to delivering
-              high-quality and professional services to their clients.
+              Frontline Advisory is a professional investment bank known for
+              expertise. They offer innovative, strategic and financial advice
+              to diverse clients to help them achieve their goals through
+              comprehensive financial services across all sectors. The company's
+              dynamic practice is supported by expertise in stock market, real
+              estate, financing, M&A, and capital structure. This enables them
+              to support clients throughout the business cycle. Their approach
+              reflects their professionalism and expertise, and commitment to
+              quality service.
             </div>
             <button
               className="homesection__content__button"
