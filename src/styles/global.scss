@@ -392,6 +392,8 @@ body::-webkit-scrollbar-track {
   border-top: none;
   height: 215px;
   cursor: pointer;
+
+  border-image: linear-gradient(to top, rgb(255, 255, 255), rgb(15, 15, 15)) 1;
 }
 .teamcard__content__card:hover {
   border: #6d8e07 1px solid;
