@@ -71,6 +71,7 @@ body::-webkit-scrollbar-track {
   text-align: center;
   width: 90%;
   max-width: 1100px;
+  font-size: 23px;
 }
 .homesection__content__button {
   position: absolute;
@@ -379,7 +380,7 @@ body::-webkit-scrollbar-track {
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 2.5em;
+  margin-bottom: 1.5em;
 }
 .teamcard__content__card {
   width: 30%;
@@ -425,6 +426,7 @@ body::-webkit-scrollbar-track {
   width: 100%;
   height: 100%;
   z-index: -1;
+  mix-blend-mode: luminosity;
 }
 .para {
   margin-top: -6em;
@@ -618,8 +620,8 @@ body::-webkit-scrollbar-track {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 2em;
-  padding-bottom: 3em;
+  padding-top: 5em;
+  padding-bottom: 4em;
 }
 .footer__content__left {
   width: 50%;
@@ -675,6 +677,7 @@ body::-webkit-scrollbar-track {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 1em;
 }
 .footer__bottom__content__right * {
   color: #fff;
@@ -866,6 +869,7 @@ body::-webkit-scrollbar-track {
   .homesection__content__info {
     top: 50%;
     width: 90%;
+    font-size: 20px;
   }
   .homesection__content__button {
     top: 92%;
@@ -959,12 +963,7 @@ body::-webkit-scrollbar-track {
     background-color: transparent;
     font-family: "Bebas Kai Regular";
   }
-  .homesection__content__heading {
-    top: 8%;
-  }
-  .homesection__content__button {
-    top: 94%;
-  }
+
   .homesection__content__background__image img {
     width: 1350px;
   }
