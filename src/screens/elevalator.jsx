@@ -7,22 +7,17 @@ export default function Elevalator() {
   const [show, setShow] = useState(false);
   const [selectedIndustry, setSelectedIndustry] = useState("");
   const list = [
-    "Telecommunication",
-    "Paints",
-    "Chemical",
-    "Automobile",
-    "Airline",
-    "Locomotive",
-    "Information",
-    "Home appliances",
-    "Logistics",
-    "Construction",
-    "Real estate",
-    "Textile",
-    "Infrastucture",
-    "IT",
-    "Insurance",
+    "Chemicals",
     "Oil & Gas",
+    "Insurance",
+    "IT",
+    "Construction",
+    "Pharmaceuticals",
+    "Textiles",
+    "Logistics",
+    "Home Appliances",
+    "Automobile",
+    "Real Estate",
   ];
   function generateRandomInteger(min, max) {
     return Math.floor(min + Math.random() * (max - min + 200));

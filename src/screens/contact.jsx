@@ -1,6 +1,6 @@
 import { PngContactbackground, SvgContactlogo } from "../assets";
 
-export default function () {
+export default function Contact() {
   return (
     <>
       <section className="contact" id="Contact">

@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -5em;
+  margin-top: -10em;
 }
 .animation__container__center__piece {
   position: relative;
@@ -44,16 +44,11 @@
   width: 100px;
   cursor: pointer;
 }
-.animation__container__center__piece__entry__1 {
-  top: -150px;
-  left: -50px;
-}
 .animation__container__center__piece__entry__1
   .animation__container__center__piece__entry__line {
-  width: 178px;
+  width: 258px;
   height: 2px;
-  background-color: #93c007;
-  transform: translateX(40px) translateY(80px) rotate(60deg);
+  transform: translateX(100px) translateY(70px) rotate(30deg);
 }
 @keyframes animation__container__center__piece__entry__1 {
   0% {
@@ -63,20 +58,15 @@
   }
   100% {
     opacity: 1;
-    top: -150px;
-    left: -50px;
+    top: -70px;
+    left: -250px;
   }
-}
-.animation__container__center__piece__entry__2 {
-  top: -100px;
-  left: -150px;
 }
 .animation__container__center__piece__entry__2
   .animation__container__center__piece__entry__line {
-  width: 170px;
+  width: 90px;
   height: 2px;
-  background-color: #93c007;
-  transform: translateX(70px) translateY(74px) rotate(40deg);
+  transform: translateX(48px) translateY(25px) rotate(15deg);
 }
 @keyframes animation__container__center__piece__entry__2 {
   0% {
@@ -86,20 +76,16 @@
   }
   100% {
     opacity: 1;
-    top: -100px;
-    left: -150px;
+    top: 40px;
+    left: -160px;
+    scale: 1.3;
   }
-}
-.animation__container__center__piece__entry__3 {
-  top: -40px;
-  left: -250px;
 }
 .animation__container__center__piece__entry__3
   .animation__container__center__piece__entry__line {
-  width: 225px;
+  width: 250px;
   height: 2px;
-  background-color: #93c007;
-  transform: translateX(110px) translateY(64px) rotate(25deg);
+  transform: translateX(128px) translateY(12px) rotate(0deg);
 }
 @keyframes animation__container__center__piece__entry__3 {
   0% {
@@ -109,20 +95,15 @@
   }
   100% {
     opacity: 1;
-    top: -40px;
-    left: -250px;
+    top: 100px;
+    left: -300px;
   }
-}
-.animation__container__center__piece__entry__4 {
-  top: 50px;
-  left: -300px;
 }
 .animation__container__center__piece__entry__4
   .animation__container__center__piece__entry__line {
-  width: 262px;
+  width: 145px;
   height: 2px;
-  background-color: #93c007;
-  transform: translateX(120px) translateY(35px) rotate(10deg);
+  transform: translateX(67px) translateY(-8px) rotate(-15deg);
 }
 @keyframes animation__container__center__piece__entry__4 {
   0% {
@@ -132,20 +113,16 @@
   }
   100% {
     opacity: 1;
-    top: 50px;
-    left: -300px;
+    top: 180px;
+    left: -220px;
+    scale: 1.3;
   }
-}
-.animation__container__center__piece__entry__5 {
-  top: 130px;
-  left: -310px;
 }
 .animation__container__center__piece__entry__5
   .animation__container__center__piece__entry__line {
-  width: 272px;
+  width: 90px;
   height: 2px;
-  background-color: #93c007;
-  transform: translateX(130px) translateY(12px) rotate(0deg);
+  transform: translateX(48px) translateY(-20px) rotate(-30deg);
 }
 @keyframes animation__container__center__piece__entry__5 {
   0% {
@@ -155,20 +132,15 @@
   }
   100% {
     opacity: 1;
-    top: 130px;
-    left: -310px;
+    top: 230px;
+    left: -100px;
   }
-}
-.animation__container__center__piece__entry__6 {
-  top: 220px;
-  left: -275px;
 }
 .animation__container__center__piece__entry__6
   .animation__container__center__piece__entry__line {
-  width: 262px;
+  width: 83px;
   height: 2px;
-  background-color: #93c007;
-  transform: translateX(120px) translateY(-16px) rotate(-13deg);
+  transform: translateX(0px) translateY(-20px) rotate(90deg);
 }
 @keyframes animation__container__center__piece__entry__6 {
   0% {
@@ -178,20 +150,16 @@
   }
   100% {
     opacity: 1;
-    top: 220px;
-    left: -275px;
+    top: 300px;
+    left: 60px;
+    scale: 1.3;
   }
-}
-.animation__container__center__piece__entry__7 {
-  top: 290px;
-  left: -150px;
 }
 .animation__container__center__piece__entry__7
   .animation__container__center__piece__entry__line {
-  width: 196px;
+  width: 140px;
   height: 2px;
-  background-color: #93c007;
-  transform: translateX(80px) translateY(-38px) rotate(-30deg);
+  transform: translateX(-55px) translateY(-15px) rotate(25deg);
 }
 @keyframes animation__container__center__piece__entry__7 {
   0% {
@@ -201,20 +169,15 @@
   }
   100% {
     opacity: 1;
-    top: 290px;
-    left: -150px;
+    top: 230px;
+    left: 260px;
   }
-}
-.animation__container__center__piece__entry__8 {
-  top: 330px;
-  left: -50px;
 }
 .animation__container__center__piece__entry__8
   .animation__container__center__piece__entry__line {
-  width: 155px;
+  width: 230px;
   height: 2px;
-  background-color: #93c007;
-  transform: translateX(42px) translateY(-50px) rotate(-55deg);
+  transform: translateX(-110px) translateY(-18px) rotate(15deg);
 }
 @keyframes animation__container__center__piece__entry__8 {
   0% {
@@ -224,181 +187,16 @@
   }
   100% {
     opacity: 1;
-    top: 330px;
-    left: -50px;
+    top: 180px;
+    left: 360px;
+    scale: 0.9;
   }
-}
-.animation__container__center__piece__entry__16 {
-  top: -150px;
-  right: -50px;
-}
-.animation__container__center__piece__entry__16
-  .animation__container__center__piece__entry__line {
-  width: 178px;
-  height: 2px;
-  background-color: #93c007;
-  transform: translateX(-40px) translateY(80px) rotate(120deg);
-}
-@keyframes animation__container__center__piece__entry__16 {
-  0% {
-    opacity: 0;
-    top: 0px;
-    left: 0px;
-  }
-  100% {
-    opacity: 1;
-    top: -150px;
-    right: -50px;
-  }
-}
-.animation__container__center__piece__entry__15 {
-  top: -100px;
-  right: -150px;
-}
-.animation__container__center__piece__entry__15
-  .animation__container__center__piece__entry__line {
-  width: 170px;
-  height: 2px;
-  background-color: #93c007;
-  transform: translateX(-70px) translateY(74px) rotate(140deg);
-}
-@keyframes animation__container__center__piece__entry__15 {
-  0% {
-    opacity: 0;
-    top: 0px;
-    left: 0px;
-  }
-  100% {
-    opacity: 1;
-    top: -100px;
-    right: -150px;
-  }
-}
-.animation__container__center__piece__entry__14 {
-  top: -40px;
-  right: -250px;
-}
-.animation__container__center__piece__entry__14
-  .animation__container__center__piece__entry__line {
-  width: 239px;
-  height: 2px;
-  background-color: #93c007;
-  transform: translateX(-100px) translateY(55px) rotate(155deg);
-}
-@keyframes animation__container__center__piece__entry__14 {
-  0% {
-    opacity: 0;
-    top: 0px;
-    left: 0px;
-  }
-  100% {
-    opacity: 1;
-    top: -40px;
-    right: -250px;
-  }
-}
-.animation__container__center__piece__entry__13 {
-  top: 50px;
-  right: -300px;
-}
-.animation__container__center__piece__entry__13
-  .animation__container__center__piece__entry__line {
-  width: 262px;
-  height: 2px;
-  background-color: #93c007;
-  transform: translateX(-120px) translateY(35px) rotate(-10deg);
-}
-@keyframes animation__container__center__piece__entry__13 {
-  0% {
-    opacity: 0;
-    top: 0px;
-    left: 0px;
-  }
-  100% {
-    opacity: 1;
-    top: 50px;
-    right: -300px;
-  }
-}
-.animation__container__center__piece__entry__12 {
-  top: 130px;
-  right: -310px;
-}
-.animation__container__center__piece__entry__12
-  .animation__container__center__piece__entry__line {
-  width: 272px;
-  height: 2px;
-  background-color: #93c007;
-  transform: translateX(-130px) translateY(12px) rotate(0deg);
-}
-@keyframes animation__container__center__piece__entry__12 {
-  0% {
-    opacity: 0;
-    top: 0px;
-    left: 0px;
-  }
-  100% {
-    opacity: 1;
-    top: 130px;
-    right: -310px;
-  }
-}
-.animation__container__center__piece__entry__11 {
-  top: 220px;
-  right: -275px;
-}
-.animation__container__center__piece__entry__11
-  .animation__container__center__piece__entry__line {
-  width: 262px;
-  height: 2px;
-  background-color: #93c007;
-  transform: translateX(-120px) translateY(-16px) rotate(13deg);
-}
-@keyframes animation__container__center__piece__entry__11 {
-  0% {
-    opacity: 0;
-    top: 0px;
-    left: 0px;
-  }
-  100% {
-    opacity: 1;
-    top: 220px;
-    right: -275px;
-  }
-}
-.animation__container__center__piece__entry__10 {
-  top: 290px;
-  right: -150px;
-}
-.animation__container__center__piece__entry__10
-  .animation__container__center__piece__entry__line {
-  width: 196px;
-  height: 2px;
-  background-color: #93c007;
-  transform: translateX(-80px) translateY(-38px) rotate(30deg);
-}
-@keyframes animation__container__center__piece__entry__10 {
-  0% {
-    opacity: 0;
-    top: 0px;
-    left: 0px;
-  }
-  100% {
-    opacity: 1;
-    top: 290px;
-    right: -150px;
-  }
-}
-.animation__container__center__piece__entry__9 {
-  top: 330px;
-  right: -50px;
 }
 .animation__container__center__piece__entry__9
   .animation__container__center__piece__entry__line {
-  width: 155px;
+  width: 40px;
   height: 2px;
-  background-color: #93c007;
-  transform: translateX(-42px) translateY(-50px) rotate(55deg);
+  transform: translateX(-25px) translateY(8px) rotate(5deg);
 }
 @keyframes animation__container__center__piece__entry__9 {
   0% {
@@ -408,13 +206,51 @@
   }
   100% {
     opacity: 1;
-    top: 330px;
-    right: -50px;
+    top: 100px;
+    left: 220px;
+    scale: 1.1;
+  }
+}
+.animation__container__center__piece__entry__10
+  .animation__container__center__piece__entry__line {
+  width: 220px;
+  height: 2px;
+  transform: translateX(-105px) translateY(22px) rotate(-5deg);
+}
+@keyframes animation__container__center__piece__entry__10 {
+  0% {
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    opacity: 1;
+    top: 40px;
+    left: 380px;
+  }
+}
+.animation__container__center__piece__entry__11
+  .animation__container__center__piece__entry__line {
+  width: 140px;
+  height: 2px;
+  transform: translateX(-60px) translateY(45px) rotate(-30deg);
+}
+@keyframes animation__container__center__piece__entry__11 {
+  0% {
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    opacity: 1;
+    top: -50px;
+    left: 260px;
   }
 }
 .animation__container__center__piece__entry__line {
   z-index: -1;
   animation: animation__container__center__piece__entry__line 0.5s both;
+  background-color: #93c007;
 }
 @keyframes animation__container__center__piece__entry__line {
   0% {
