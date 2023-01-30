@@ -443,6 +443,14 @@
 .animation__popup__button:hover {
   background-color: #6c9100;
 }
+.success__message {
+  color: white;
+  font-size: 14px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media (max-width: 1000px) {
   .animation__container__center__piece {
     scale: 0.8;

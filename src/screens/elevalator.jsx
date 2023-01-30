@@ -22,6 +22,7 @@ export default function Elevalator() {
   function generateRandomInteger(min, max) {
     return Math.floor(min + Math.random() * (max - min + 200));
   }
+  const [success, setSuccess] = useState(false);
   return (
     <>
       {popupOpen && (
@@ -34,115 +35,154 @@ export default function Elevalator() {
             <form
               onSubmit={(e) => {
                 e.preventDefault();
-                setPopupOpen(false);
-                axios.post(
-                  "https://frontline-api-production.up.railway.app/api/industry",
-                  {
-                    industry: e.target.industry.value,
-                    revenue: e.target.revenue.value,
-                    margin: e.target.margin.value,
-                    email: e.target.email.value,
-                    phone: e.target.phone.value,
-                  }
-                );
+                axios
+                  .post(
+                    "https://frontline-api-production.up.railway.app/api/industry",
+                    {
+                      industry: e.target.industry.value,
+                      revenue: e.target.revenue.value,
+                      margin: e.target.margin.value,
+                      email: e.target.email.value,
+                      phone: e.target.phone.value,
+                    }
+                  )
+                  .then((res) => {
+                    console.log(res.data);
+                    setSuccess(true);
+                    setTimeout(() => {
+                      setPopupOpen(false);
+                      setSuccess(false);
+                    }, 3000);
+                  })
+                  .catch((err) => {
+                    console.log(err);
+                  });
               }}
               className="animation__popup"
             >
-              <button
-                className="animation__popup__close"
-                onClick={() => {
-                  setPopupOpen(false);
-                }}
-                type="button"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-x"
-                >
-                  <line x1="18" y1="6" x2="6" y2="18"></line>
-                  <line x1="6" y1="6" x2="18" y2="18"></line>
-                </svg>
-              </button>
-              <div className="animation__popup__heading">Valuator</div>
-              <div className="animation__popup__input">
-                <label htmlFor="" className="animation__popup__input__label">
-                  Industry
-                </label>
-                <select
-                  type="text"
-                  className="animation__popup__input__field"
-                  placeholder="Industry name"
-                  value={selectedIndustry}
-                  name="industry"
-                  onChange={(e) => {
-                    setSelectedIndustry(e.target.value);
-                  }}
-                >
-                  {list.map((item) => (
-                    <option value={item}>{item}</option>
-                  ))}
-                </select>
-                <div className="animation__popup__input__error"></div>
-              </div>
-              <div className="animation__popup__input">
-                <label htmlFor="" className="animation__popup__input__label">
-                  Revenue
-                </label>
-                <input
-                  type="text"
-                  className="animation__popup__input__field"
-                  placeholder="Revenue here"
-                  name="revenue"
-                />
-                <div className="animation__popup__input__error"></div>
-              </div>
-              <div className="animation__popup__input">
-                <label htmlFor="" className="animation__popup__input__label">
-                  Margin
-                </label>
-                <input
-                  type="text"
-                  className="animation__popup__input__field"
-                  placeholder="Margin here"
-                  name="margin"
-                />
-                <div className="animation__popup__input__error"></div>
-              </div>
-              <div className="animation__popup__input">
-                <label htmlFor="" className="animation__popup__input__label">
-                  Email
-                </label>
-                <input
-                  type="text"
-                  className="animation__popup__input__field"
-                  placeholder="Email here"
-                  name="email"
-                />
-                <div className="animation__popup__input__error"></div>
-              </div>
-              <div className="animation__popup__input">
-                <label htmlFor="" className="animation__popup__input__label">
-                  Phone
-                </label>
-                <input
-                  type="text"
-                  className="animation__popup__input__field"
-                  placeholder="Phone here"
-                  name="phone"
-                />
-                <div className="animation__popup__input__error"></div>
-              </div>
-              <button className="animation__popup__button" type="submit">
-                Send
-              </button>
+              {success ? (
+                <div className="success__message">
+                  Succesfully submitted your details
+                </div>
+              ) : (
+                <>
+                  <button
+                    className="animation__popup__close"
+                    onClick={() => {
+                      setPopupOpen(false);
+                    }}
+                    type="button"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-x"
+                    >
+                      <line x1="18" y1="6" x2="6" y2="18"></line>
+                      <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                  </button>
+                  <div className="animation__popup__heading">Valuator</div>
+                  <div className="animation__popup__input">
+                    <label
+                      htmlFor="industry"
+                      className="animation__popup__input__label"
+                    >
+                      Industry
+                    </label>
+                    <select
+                      type="text"
+                      className="animation__popup__input__field"
+                      placeholder="Industry name"
+                      value={selectedIndustry}
+                      name="industry"
+                      required
+                      onChange={(e) => {
+                        setSelectedIndustry(e.target.value);
+                      }}
+                    >
+                      {list.map((item) => (
+                        <option value={item}>{item}</option>
+                      ))}
+                    </select>
+                    <div className="animation__popup__input__error"></div>
+                  </div>
+                  <div className="animation__popup__input">
+                    <label
+                      htmlFor="revenue"
+                      className="animation__popup__input__label"
+                    >
+                      Revenue
+                    </label>
+                    <input
+                      type="text"
+                      className="animation__popup__input__field"
+                      placeholder="Revenue here"
+                      name="revenue"
+                      required
+                    />
+                    <div className="animation__popup__input__error"></div>
+                  </div>
+                  <div className="animation__popup__input">
+                    <label
+                      htmlFor="margin"
+                      className="animation__popup__input__label"
+                    >
+                      Margin
+                    </label>
+                    <input
+                      type="text"
+                      className="animation__popup__input__field"
+                      placeholder="Margin here"
+                      name="margin"
+                      required
+                    />
+                    <div className="animation__popup__input__error"></div>
+                  </div>
+                  <div className="animation__popup__input">
+                    <label
+                      htmlFor="email"
+                      className="animation__popup__input__label"
+                    >
+                      Email
+                    </label>
+                    <input
+                      type="text"
+                      className="animation__popup__input__field"
+                      placeholder="Email here"
+                      name="email"
+                      required
+                    />
+                    <div className="animation__popup__input__error"></div>
+                  </div>
+                  <div className="animation__popup__input">
+                    <label
+                      htmlFor="phone"
+                      className="animation__popup__input__label"
+                    >
+                      Phone
+                    </label>
+                    <input
+                      type="text"
+                      className="animation__popup__input__field"
+                      placeholder="Phone here"
+                      name="phone"
+                      required
+                    />
+                    <div className="animation__popup__input__error"></div>
+                  </div>
+                  <button className="animation__popup__button" type="submit">
+                    Send
+                  </button>
+                </>
+              )}
             </form>
           </ClickAwayListener>
         </div>
