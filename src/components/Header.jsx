@@ -47,13 +47,7 @@ export default function Header() {
             data-aos-delay="50"
             data-aos-duration="1300"
           >
-            <NavLink
-              to="/"
-              className="header__logo"
-              data-aos="fade-right"
-              data-aos-delay="60"
-              data-aos-duration="1300"
-            >
+            <NavLink to="/" className="header__logo">
               <img src={PngHeaderlogo} alt="logo" />
             </NavLink>
             <div
