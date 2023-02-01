@@ -23,6 +23,7 @@ import JpgHomeAppliances from './HomeAppliances.jpg'
 import PngHomesectionback from './homesectionback.png'
 import PngHomesectionback1 from './homesectionback1.png'
 import PngHomesectionback2 from './homesectionback2.png'
+import PngImgloader from './imgloader.png'
 import PngIndustriesleftimg from './industriesleftimg.png'
 import JpgInfrastructure from './Infrastructure.jpg'
 import JpgInsurance from './Insurance.jpg'
@@ -65,6 +66,7 @@ export {
   PngHomesectionback,
   PngHomesectionback1,
   PngHomesectionback2,
+  PngImgloader,
   PngIndustriesleftimg,
   JpgInfrastructure,
   JpgInsurance,

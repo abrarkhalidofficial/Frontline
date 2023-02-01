@@ -14,9 +14,11 @@ import {
   JpgTelecommunication,
   JpgTextile,
   PngAirline,
+  PngImgloader,
 } from "../assets";
 
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function IndustriesSection() {
   const text = [
@@ -76,7 +78,13 @@ export default function IndustriesSection() {
               {images
                 .filter((_image, index) => index === selectedImage)
                 .map((image, index) => (
-                  <img key={index} src={image} alt="JpgIndustriesleftimg" />
+                  <LazyLoadImage
+                    key={index}
+                    src={image}
+                    alt="JpgIndustriesleftimg"
+                    effect="blur"
+                    PlaceholderSrc={PngImgloader}
+                  />
                 ))}
             </div>
           </div>
