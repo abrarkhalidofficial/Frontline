@@ -87,7 +87,7 @@ export default function Homesection() {
             <button
               className="homesection__content__button"
               onClick={() => {
-                naivgate("/elevalator");
+                naivgate("/Contact");
               }}
             >
               Get in Touch
@@ -136,7 +136,7 @@ export default function Homesection() {
             <button
               className="homesection__content__button"
               onClick={() => {
-                naivgate("/elevalator");
+                naivgate("/Contact");
               }}
             >
               Get in Touch
@@ -184,7 +184,7 @@ export default function Homesection() {
             <button
               className="homesection__content__button"
               onClick={() => {
-                naivgate("/elevalator");
+                naivgate("/Contact");
               }}
             >
               Get in Touch

@@ -16,6 +16,7 @@ import PngClientswiperimg7 from './clientswiperimg7.png'
 import JpgConstruction from './Construction.jpg'
 import PngContactbackground from './contactbackground.png'
 import SvgContactlogo from './contactlogo.svg'
+import PngFabi from './fabi.png'
 import PngFooterlogo from './footerlogo.png'
 import PngHeaderlogo from './headerlogo.png'
 import JpgHomeAppliances from './HomeAppliances.jpg'
@@ -57,6 +58,7 @@ export {
   JpgConstruction,
   PngContactbackground,
   SvgContactlogo,
+  PngFabi,
   PngFooterlogo,
   PngHeaderlogo,
   JpgHomeAppliances,

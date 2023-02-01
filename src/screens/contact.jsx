@@ -9,10 +9,9 @@ export default function Contact() {
         </div>
         <div className="contact__all__con">
           <div className="contact__lorem">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            We'd love to hear from you! If you have any questions or comments,
+            please feel free to reach out to us using the contact information
+            below.
           </div>
         </div>
         <div className="contact__bottom">
@@ -34,9 +33,7 @@ export default function Contact() {
               </svg>
             </div>
             <div className="contact__bottom__heading">Email Address</div>
-            <div className="contact__bottom__info">
-              Info@Frontlinewebsite.com
-            </div>
+            <div className="contact__bottom__info">info@frontlineadv.co</div>
           </div>
           <div className="all__contact__bottom__con">
             <div className="contact__bottom__svg">
@@ -62,7 +59,7 @@ export default function Contact() {
               </svg>
             </div>
             <div className="contact__bottom__heading">Contact us</div>
-            <div className="contact__bottom__info">0300 1234567</div>
+            <div className="contact__bottom__info">042-37192244</div>
           </div>
           <div className="all__contact__bottom__con">
             <div className="contact__bottom__svg">
@@ -88,7 +85,10 @@ export default function Contact() {
               </svg>
             </div>
             <div className="contact__bottom__heading">Location</div>
-            <div className="contact__bottom__info">Address Frontline </div>
+            <div className="contact__bottom__info">
+              33-Z, Second Floor Commercial Plaza, DHA Phase III, Lahore,
+              Pakistan.{" "}
+            </div>
           </div>
         </div>
 
@@ -100,11 +100,12 @@ export default function Contact() {
         <div className="contactform__content">
           <div className="contactform__content__left">
             <div className="contactform__content__left__heading">
-              Get In Touch <span>with Us</span>
+              Get In Touch <span>With Us</span>
             </div>
             <div className="contactform__content__left__info">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum
+              Once form submitted. Show a message: Thank you for considering
+              Frontline Advisory as your trusted advisors. We look forward to
+              the opportunity to serve you.
             </div>
           </div>
           <div className="contactform__content__right">

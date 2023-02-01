@@ -18,15 +18,15 @@ export default function AboutUsSection() {
           data-aos-delay="60"
           data-aos-duration="1300"
         >
-          o Frontline Advisory is a leading independent investment banking
-          company that provides innovative, strategic and financial advice to a
-          diverse client base. We assist our clients in achieving their
-          strategic goals by offering comprehensive, integrated financial
-          advisory services across all major industry sectors. Our dynamic
-          advisory practice supports clients through all phases of the business
-          cycle with expert capabilities in Stock Market Listing (IPO), Real
-          Estate Advisory (REITs), Bank Financing, M&A and Strategic Advisory,
-          Capital Structure Advisory.
+          Frontline Advisory is a leading independent investment banking company
+          that provides innovative, strategic and financial advice to a diverse
+          client base. We assist our clients in achieving their strategic goals
+          by offering comprehensive, integrated financial advisory services
+          across all major industry sectors. Our dynamic advisory practice
+          supports clients through all phases of the business cycle with expert
+          capabilities in Stock Market Listing (IPO), Real Estate Advisory
+          (REITs), Bank Financing, M&A and Strategic Advisory, Capital Structure
+          Advisory.
         </div>
         <div
           className="aboutus__content__all__card"
