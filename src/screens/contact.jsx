@@ -114,6 +114,7 @@ export default function Contact() {
               <input type="Name" placeholder="Name" />
               <input type="email" name="email" id="email" placeholder="Email" />
               <input type="text" placeholder="Subject" />
+              <textarea className="Description" type="text" placeholder="Description"     />
               <button>Submit</button>
             </div>
           </div>

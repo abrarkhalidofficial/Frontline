@@ -172,6 +172,28 @@
 ::placeholder {
   color: #000;
 }
+.Description{
+  height: 120px !important;
+  // padding-bottom: 5em !important;
+  padding-top: 1em;
+  margin-top: 4em;
+   width: 100%!important;
+  margin: 10px 0;
+  padding: 10px ;
+  border: 1px solid #acacac;
+  border-radius: 20px;
+  outline: none;
+  color: #000;
+  background-color: transparent;
+  cursor: pointer;
+  padding-left: 1.5em;
+}
+.Description:hover{
+  border: 1px solid #779d02;
+}
+.Description:focus{
+  border: 1px solid #779d02;
+}
 @media (max-width: 1100px) {
   .contact__lorem {
     width: 90%;
