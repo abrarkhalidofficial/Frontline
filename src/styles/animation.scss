@@ -365,10 +365,11 @@
   width: 100%;
 }
 .animation__popup__img {
-  width: 100%;
-  max-width: 100px;
-  margin-bottom: 1em;
-  border-radius: 100px;
+  display: none;
+  // width: 100%;
+  // max-width: 100px;
+  // margin-bottom: 1em;
+  // border-radius: 100px;
 }
 .animation__popup__sub__heading {
   font-size: 14px;

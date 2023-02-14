@@ -23,7 +23,7 @@ export default function headertop() {
             </svg>
           </div>
           <a href="tel:+92321770290" className="headertop__contetnt__info">
-            +92-321-7702909
+          042-37192244
           </a>
           <div className="headertop__contetnt__svg">
             <svg
