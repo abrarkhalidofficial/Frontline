@@ -14,8 +14,6 @@ dist-ssr
 
 # Editor directories and files
 
-# .vscode/*
-!.vscode/extensions.json
 .idea
 .DS_Store
 *.suo
@@ -24,3 +22,6 @@ dist-ssr
 *.sln
 *.sw?
 .yarn
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
